@@ -1,29 +1,15 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Report "
 date:   2024-01-24 13:10:49 +0530
-categories: jekyll update
+categories: daily log
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Apache Kafka - Rust
 
-Jekyll requires blog post files to be named according to the following format:
+[rust-rdkafka][rust-rdkafka] is a Rust client library for Apache Kafka. It is based off librdkafka(a c/c++ library).
 
-`YEAR-MONTH-DAY-title.MARKUP`
+Tried the simple producer/consumer clients provided as part of the examples. For the broker, there is a docker-compose file which launches one using Zookeeper based on images hosted by Confluent inc.
+Had an issue with creating consumer because of reading a config value "max.poll.interval.ms" which had a spurious null character like so "30000\0" hence the parsing of string to a number was failing. Tried using the nvim-dap based debugger to figure out the problem. But somehow had issues printing variable values and finally fell back to using the plain old println! macro.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[rust-rdkafka]: https://github.com/fede1024/rust-rdkafka/
