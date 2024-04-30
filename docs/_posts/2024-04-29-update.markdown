@@ -5,25 +5,25 @@ date:   2024-04-29
 categories: daily log
 ---
 
-AWS - SaaS
+### AWS - SaaS
 
 [aws-saas-workshop][AWS-SaaS] Is a step by step tutorial about setting up a multi-tenant SaaS application on AWS using Serverless technologies. There is a frontend application written in Angular and the backend application is written in Python using Lambda functions. Cloud9 IDE is used for building and deploying the application. 
 Some of the AWS components used are
-    1. Cognito
-    2. API Gateway
-    3. STS (Security Token Service)
-    4. CloudFront
-    5. S3 buckets
-    6. CodePipeline
-    7. CloudWatch
-    8. Lambda
+  1. Cognito
+  2. API Gateway
+  3. STS (Security Token Service)
+  4. CloudFront
+  5. S3 buckets
+  6. CodePipeline
+  7. CloudWatch
+  8. Lambda
     
 
 [AWS-SaaS]: https://catalog.us-east-1.prod.workshops.aws/workshops/b0c6ad36-0a4b-45d8-856b-8a64f0ac76bb/en-US
 
-Llama3 
+### Llama3 
 
-Is the latest LLM model released by Meta. Successfully ran the 8B model using Ollama on my M1. 
+Is the latest LLM model released by Meta. Successfully ran the 8B model using [Ollama][Ollama] on my M1. 
 
    ```ollama run llama3:instruct```
    > why is sky blue?
@@ -39,3 +39,4 @@ Ollama also supports a Multimodal model
  > whats in this image? /Users/manojmohan/cat-tortoise.jpg
 
  
+[Ollama]: https://ollama.com/library/llama3
