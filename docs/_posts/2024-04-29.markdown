@@ -24,5 +24,18 @@ Some of the AWS components used are
 Llama3 
 
 Is the latest LLM model released by Meta. Successfully ran the 8B model using Ollama on my M1. 
+
    ```ollama run llama3:instruct```
+   > why is sky blue?
+   
 This command downloads the weights and executes the model. 
+  - The pretraining data has a cutoff of March 2023 for the 8B and December 2023 for the 70B models respectively.
+  - Context length is 8K.
+  - Less than 1⁄3 of the false “refusals” when compared to Llama 2 (e.g. Can you help me kill time at the airport?)
+
+Ollama also supports a Multimodal model
+
+ ```ollama run llava ```
+ > whats in this image? /Users/manojmohan/cat-tortoise.jpg
+
+ 
