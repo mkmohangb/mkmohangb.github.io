@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "SAM & Ollama"
+date:   2024-04-30
+categories: daily log
+---
+
+AWS - SaaS
+
+    
+
+[AWS-SaaS]: https://catalog.us-east-1.prod.workshops.aws/workshops/b0c6ad36-0a4b-45d8-856b-8a64f0ac76bb/en-US
+
+Ollama
+
+Figured out why Gemma 7b model inference didn't work with Ollama on M1 Air. It was an OOM issue with using Metal. Running the model on CPU works but it is very slow. More details [here][ollama-github-issue-4033].
+
+```Ollama run``` downloads model weights along the lines of how docker images are pulled. Check how it works.
+
+Terminologies to understand:
+
+Tensor parallelism
+Pipeline parallelism
+Data parallelization
+Model parallelization
+
+
+[ollama-github-issue-4033]: https://github.com/ollama/ollama/issues/4033#issuecomment-2084841685
+
+ 
