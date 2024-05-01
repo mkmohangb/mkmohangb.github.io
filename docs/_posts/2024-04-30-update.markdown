@@ -24,7 +24,8 @@ Terminologies to understand:
  - Data parallelization
  - Model parallelization
 
-[settings-for-llama-cpp](https://github.com/ggerganov/llama.cpp/tree/master/examples/main#additional-options)
+Ollama internally uses llama-cpp.
+[multi-gpu-settings-for-llama-cpp](https://github.com/ggerganov/llama.cpp/tree/master/examples/main#additional-options)
 
 [ollama-github-issue-4033]: https://github.com/ollama/ollama/issues/4033#issuecomment-2084841685
 
