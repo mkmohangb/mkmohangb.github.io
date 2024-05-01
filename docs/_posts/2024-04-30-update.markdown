@@ -7,9 +7,11 @@ categories: daily log
 
 ### AWS - SAM
 
-    
+SAM is Serverless Application Model. The SAM template file is an abstraction over cloudformation template. The cli tool converts SAM template to Cloudformation template during deployment.
 
-[AWS-SaaS]: https://catalog.us-east-1.prod.workshops.aws/workshops/b0c6ad36-0a4b-45d8-856b-8a64f0ac76bb/en-US
+Deployed hello world application available [here](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html#serverless-getting-started-hello-world-run) using SAM cli.
+
+Also halfway through this [SAM workshop](https://catalog.workshops.aws/complete-aws-sam/en-US)
 
 ### Ollama
 
