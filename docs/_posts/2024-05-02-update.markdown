@@ -12,6 +12,8 @@ categories: daily log
 
 ### Numpy
 - Solved the first 21 problems from [here](https://github.com/rougier/numpy-100)
+- np.pad, np.tile, np.unravel_index, np.nonzero, a.nbytes, a.itemsize, np.show_config, np.eye, np.diag, checkerboard pattern
+  
 
 ### Ollama
 - Read through and tried the spinner related changes in [Ollama repo](https://github.com/ollama/ollama/tree/main/progress). 
