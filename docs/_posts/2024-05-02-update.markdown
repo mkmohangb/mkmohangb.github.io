@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Upwork "
+title:  "Upwork, Numpy, Ollama & Answer.ai"
 date:   2024-05-02
 categories: daily log
 ---
@@ -10,7 +10,17 @@ categories: daily log
 - Spent sometime going through jobs on Upwork and applied for a couple of relevant ones related to Radiology and AI. 
     
 
+### Numpy
+- Solved the first 21 problems from [here](https://github.com/rougier/numpy-100)
 
+### Ollama
+- Read through and tried the spinner related changes in [Ollama repo](https://github.com/ollama/ollama/tree/main/progress). 
 
-
+### Answer.ai
+- Read through the article on training a 70B model using two 24GB consumer GPUs published by [Answer.ai](https://www.answer.ai/). The techniques used to achieve this are **QLoRA** (Quantization + Low Rank Adaptation of LLMs) and **FSDP** (Fully Sharded Data Parallel). HF PEFT library simplifies LoRA training.
+  
+   - DDP (Distributed Data Parallel) - for training models across multiple GPUs efficiently - load the model into each GPU separately, and have each GPU go through the training examples in parallel.
+   - FSDP - shards a large model, by splitting its parameters across multiple GPUs, allowing all the GPUs to be used simultaneously. When a layer of the neural network is calculated on a particular GPU during training, all the required shards are copied there. Then, the calculation is made, and finally the copied parts are deleted from that GPU. Whilst this sounds terribly inefficient, actually by being smart about copying the data of the next layer at the same time the current layer is busy calculating, it’s possible for this approach to result in no slowdown compared to DDP.
+  
+    
  
