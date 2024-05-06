@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Upwork, Numpy, Ollama & Answer.ai"
+date:   2024-05-02
+categories: daily log
+---
+
+### Upwork
+
+- Applied for one job
+    
+
+### Numpy
+- Solved problems 21 - 35
+- for in-place op. use out parameter, np.datetime64('today'), np.arange accepts datetime64[D] dtype, np.dtype, np.logical_and (or use multiple conditions each enclosed by parentheses), np.intersect1d, ignore warnings using np.seterr(all="ignore")
+  
+
+### Ollama
+- Read through and tried the progress bar related changes in [Ollama repo](https://github.com/ollama/ollama/tree/main/progress). 
+
+### Answer.ai
+- Directly trying the solution requires 128 GB RAM which is available in runpod.io with only one or two types of instances. Also need to get a grasp of LoRA, FSDP using smaller examples. Went through the image classification example in HF PEFT repo - there are 2 variants using model from timm & HF hub.
+ 
+ 
