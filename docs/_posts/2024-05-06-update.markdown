@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Upwork, Numpy, Ollama & Answer.ai"
+date:   2024-05-02
+categories: daily log
+---
+
+### Upwork
+
+- Applied for one job in the NLP NER domain
+    
+
+### Numpy
+- Solved problems 36 - 45
+- np.argmax, a.flags.writeable(readonly), np.array_equal, np.add.reduce, np.linspace, np.fromiter, np.floor, np.trunc
+  
+
+### Ollama
+### Answer.ai
+ 
+ 
