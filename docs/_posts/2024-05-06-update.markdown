@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Upwork, Numpy, Ollama & Answer.ai"
-date:   2024-05-02
+title:  "Upwork, Numpy, Spacy"
+date:   2024-05-06
 categories: daily log
 ---
 
@@ -15,7 +15,7 @@ categories: daily log
 - np.argmax, a.flags.writeable(readonly), np.array_equal, np.add.reduce, np.linspace, np.fromiter, np.floor, np.trunc
   
 
-### Ollama
-### Answer.ai
+### Spacy
+- Completed first chapter of [Advanced NLP with Spacy](https://course.spacy.io/en/chapter1)
  
  
