@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Upwork, Spacy"
+date:   2024-05-07
+categories: daily log
+---
+
+### Upwork
+
+- Didn't apply for any jobs. But found a couple of pointers to delve further. One on [ORPO alignment algo](https://huggingface.co/blog/mlabonne/orpo-llama-3) and the other on 2D to 3D conversion of 2D key points/ translate hand signs to text and generating hand & facial keypoints from textual descriptions. 
+    
+
+### Spacy
+- Completed the 2nd and 4th chapters of [Advanced NLP with Spacy](https://course.spacy.io/en/chapter1)
+ 
+ 
