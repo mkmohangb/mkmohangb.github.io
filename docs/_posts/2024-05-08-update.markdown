@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Upwork, Spacy"
+date:   2024-05-08
+categories: daily log
+---
+
+### Upwork
+
+- applied for one job about making AI/ML model using AWS
+    
+
+### Spacy
+- Completed the 3rd chapter of [Advanced NLP with Spacy](https://course.spacy.io/en/chapter1)
+- Wrote the notes for chapter 1
+ 
+ 
