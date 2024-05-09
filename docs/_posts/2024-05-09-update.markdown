@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Upwork, Spacy"
+date:   2024-05-09
+categories: daily log
+---
+
+### Upwork
+
+
+### Spacy
+ 
+ 
+### Grammar of Graphics
