@@ -15,3 +15,6 @@ categories: daily log
 - Wrote the notes for chapter 1
  
  
+### Grammar of Graphics
+- went through a few videos related to [grammar of graphics](https://youtu.be/RCaFBJWXfZc?si=qj3d4TMbLu07WBRN)
+- [plotnine](https://github.com/has2k1/plotnine) and [altair](https://github.com/vega/altair) are two python visualization libraries based on this concept. 
