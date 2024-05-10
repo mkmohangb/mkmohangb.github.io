@@ -1,14 +1,13 @@
 ---
 layout: post
-title:  "Upwork, Spacy"
+title:  "Upwork, CUDA Mode"
 date:   2024-05-09
 categories: daily log
 ---
 
 ### Upwork
+- Went through a few jobs but didn't apply for any. Need to create a github project with model building and deployment on AWS.
 
-
-### Spacy
  
- 
-### Grammar of Graphics
+### CUDA Mode
+- Went through a couple of videos related to [cuda basics](https://www.youtube.com/watch?v=nOxKexn3iBo) and [compute and memory basics](https://www.youtube.com/watch?v=lTmYrKwjSOU)
