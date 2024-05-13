@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "CUDA Mode, Deep Learning book"
+date:   2024-05-10
+categories: daily log
+---
+
+### CUDA Mode
+- Went through the CUDA torch [notebook](https://colab.research.google.com/drive/1F0YxcurZevIzKAKs9EEDntXTL-efQNSj#scrollTo=fTIjQiiNHYuW)
+   - wurlitzer (c-level stdout/stderr in python) and ninja(build system
+   - compile cuda c/c++ code using ```torch.utils.cpp_extension.load_inline```
+   - cuda arch - Streaming Multiprocessors(SMs), Thread block, shared memory
+   - understanding cuda kernels - blocks/threads using examples of rgb2grey and matmul
+
+### Deep Learning book
+- Read sections 5.1.1 and 5.11 from the chapter Machine Learning Basics of the book
+    - section 5.11 talks about how DL overcomes the shortcomings of ML
+        - Manifold Learning
+        - meaningful images/words are concentrated in a small portion of the sample space
