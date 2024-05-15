@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Upwork"
+date:   2024-05-13, 2024-05-14
+categories: daily log
+---
+
+### Upwork
+- Worked on dataset normalization process for [conll2003](https://huggingface.co/datasets/conll2003) and [wikiann](https://huggingface.co/datasets/wikiann). 
+- Load the dataset from hugging face, save the tokens/ner tags to parquet file. Later load the file and convert it to json format for training [GLiNER](https://github.com/urchade/GLiNER) model. GLiNER - Generalist and Lightweight Model for Named Entity Recognition.
