@@ -6,7 +6,7 @@ categories: daily log
 ---
 
 ### Upwork
-- Read the GLiNER paper.
+- Read the [GLiNER](https://arxiv.org/abs/2311.08526) paper.
 - Used the code from the repo to fine-tune the model on CoNLL03. There was an [issue](https://github.com/urchade/GLiNER/issues/80) when data samples contained no ner tag. The fix is to add a key ```label``` to each data sample. 
 - The model has a limit that it can't process an input greater than 384 words. As the backbone is based on BERT(DeBERTa) which has this limitation. One way to overcome this limitation for inference is to use chunking. See [here](https://github.com/theirstory/gliner-spacy/blob/main/gliner_spacy/pipeline.py) for a usage example. 
 
