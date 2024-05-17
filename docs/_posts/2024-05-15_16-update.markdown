@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Upwork"
+date:   2024-05-15, 2024-05-16
+categories: daily log
+---
+
+### Upwork
+- Read the GLiNER paper.
+- Used the code from the repo to fine-tune the model on CoNLL03. There was an [issue](https://github.com/urchade/GLiNER/issues/80) when data samples contained no ner tag. The fix is to add a key ```label``` to each data sample. 
+- The model has a limit that it can't process an input greater than 384 words. As the backbone is based on BERT(DeBERTa) which has this limitation. One way to overcome this limitation for inference is to use chunking. See [here](https://github.com/theirstory/gliner-spacy/blob/main/gliner_spacy/pipeline.py) for a usage example. 
+
+- Spent sometime looking at the [datasketch](https://ekzhu.com/datasketch/) library - it gives probabilistic data structures that can process and search very large amount of data super fast, with little loss of accuracy. Two relevant functions in the library are ```MinHash``` to generate the hash and ```MinHashLSH``` which is used to create an index. A real world example for finding duplicate questions is [here](https://medium.com/@bassimfaizal/finding-duplicate-questions-using-datasketch-2ae1f3d8bc5c)
