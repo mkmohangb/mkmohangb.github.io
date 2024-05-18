@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Upwork"
+date:   2024-05-17
+categories: daily log
+---
+
+### Upwork
+- digging deeper into [locality sensitive hashing](https://medium.com/engineering-brainly/locality-sensitive-hashing-explained-304eb39291e4)
+- Trained small, medium & large GLiNER models using CoNLL2003 on Runpod using 4090 GPU.  small & medium models could be trained in parallel. Did 10 epochs for small & medium, 5 epochs for large. Results [here](https://github.com/mkmohangb/nlp/tree/main/ner)
