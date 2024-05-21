@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "GLiNER"
+date:   2024-05-20
+categories: daily log
+---
+
+### Discussion
+- Had a discussion on a possible job opportunity - discussed team structure etc.
+
+### GLiNER
+- Fixed a bug in the [code](https://github.com/urchade/GLiNER/pull/92)
+- Stepped through the data loader function to better understand how the input data for the model is prepared
+- Also briefly looked at the [mixed precision](https://stackoverflow.com/questions/72534859/is-gradscaler-necessary-with-mixed-precision-training-with-pytorch) [setup](https://github.com/urchade/GLiNER/blob/b1f9ece5a9e859fd7002d3798a7afe8a95107b00/train.py#L62) in the training loop
+- mixed-precision training can also be enabled using [accelerate](https://huggingface.co/docs/accelerate/en/basic_tutorials/migration#mixed-precision) which requires ```mixed_precision="fp16"``` to be passed to the ```Accelerator``` constructor. This is not happening currently in [trainer](https://github.com/urchade/GLiNER/blob/main/examples/finetuning/trainer.py)
