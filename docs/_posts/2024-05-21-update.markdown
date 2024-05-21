@@ -6,12 +6,12 @@ categories: daily log
 ---
 
 ### k8s
-- Watched [this](https://www.youtube.com/watch?v=ha3LjlD6g7g) intro video on k8s operators
+- Watched [this](https://www.youtube.com/watch?v=ha3LjlD6g7g) intro video on k8s **operators**
     - used mainly for stateful applications (e.g. web app with database)
     - operator is used to do the work of a human operator
     - created by experts in that field - e.g. how to create mysql cluster, run it, synchronize the data, to update.
     - examples - prometheus operator, postgres-operator, elastic-operator etc.
-- and this [one](https://www.youtube.com/watch?v=h4Sl21AKiDg) on how prometheus monitoring works
+- and this [one](https://www.youtube.com/watch?v=h4Sl21AKiDg) on how **Prometheus** monitoring works
     - constantly montior all the services, alert when crash, proactively identify problems 
     - e.g. notify if memory usage or disk space crosses a certain threshold
     - pull based system, services have to expose a ```/metrics``` endpoint
