@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "k8s"
+date:   2024-05-21
+categories: daily log
+---
+
+### k8s
+- Watched [this](https://www.youtube.com/watch?v=ha3LjlD6g7g) intro video on k8s operators
+    - used mainly for stateful applications (e.g. web app with database)
+    - operator is used to do the work of a human operator
+    - created by experts in that field - e.g. how to create mysql cluster, run it, synchronize the data, to update.
+    - examples - prometheus operator, postgres-operator, elastic-operator etc.
+- and this [one](https://www.youtube.com/watch?v=h4Sl21AKiDg) on how prometheus monitoring works
+    - constantly montior all the services, alert when crash, proactively identify problems 
+    - e.g. notify if memory usage or disk space crosses a certain threshold
+    - pull based system, services have to expose a ```/metrics``` endpoint
+    - stores the data in a time-series database which can be queried using PromQL
+    - visualization of the metrics can also be done using Grafana dashboardr
+    - there is a pushgateway for short-lived jobs
+    - AlertManager notifies the user via email, telegram etc.
+    - [Architecture overview](https://github.com/prometheus/prometheus?tab=readme-ov-file#architecture-overview)
+    - [Exporters](https://prometheus.io/docs/instrumenting/exporters/) are useful when the system to be monitored cannot be instrumented directly to expose metrics endpoint e.g. Linux server.
+    - easiest way to deploy on k8s is using helm chart.
+    
+
