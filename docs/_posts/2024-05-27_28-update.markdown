@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Upwork"
+date:   2024-05-27, 2024-05-28
+categories: daily log
+---
+
+### Upwork
+- Add functionality to check for duplicates within a list 
+    - using [MinHash & MinHashLSH](https://github.com/ekzhu/datasketch)
+    - using [narrow-down] library
+    - code refactor
+    - read the nice documentation [here](https://ekzhu.com/datasketch/minhash.html)
+ 
+    
+
