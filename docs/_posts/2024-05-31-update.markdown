@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "LLMs for coding"
+date:   2024-05-31
+categories: daily log
+---
+
+### LLMs for coding
+- [prompting techniques](https://towardsdatascience.com/prompt-engineering-llms-coding-chatgpt-artificial-intelligence-c16620503e4e)
+    - include comments that ouline what the code should accomplish or specifying & requirements step by step
+    - asking for auxiliary tasks - like debugging, explaining, writing tests or documenting the generated code. Requesting intermediate steps that lead to the desired code is also considered an auxiliary task.
+    - iterative decoding - refining the output of the model through multiple iterations.
+        - e.g. can you write this python function in a more pythonic way?
+    - prompt perplexity - effectiveness of a prompt is linked to how familiar the model is with the language it contains. Lower perplexity score (less “surprised”) indicates that the model finds the prompt more predictable and easier to understand based on its training data. Read this paper: [Demystifying Prompts in Language Models via Perplexity Estimation](https://arxiv.org/pdf/2212.04037)
+
+    
+
