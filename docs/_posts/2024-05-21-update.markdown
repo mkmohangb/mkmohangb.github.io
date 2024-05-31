@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "k8s"
+title:  "k8s, LLMs for coding"
 date:   2024-05-21
 categories: daily log
 ---
@@ -22,5 +22,7 @@ categories: daily log
     - [Architecture overview](https://github.com/prometheus/prometheus?tab=readme-ov-file#architecture-overview)
     - [Exporters](https://prometheus.io/docs/instrumenting/exporters/) are useful when the system to be monitored cannot be instrumented directly to expose metrics endpoint e.g. Linux server.
     - easiest way to deploy on k8s is using helm chart.
-    
-
+- [Tutorial for beginners](https://www.youtube.com/watch?v=X48VuDVv0do), good one
+  
+### LLMs for coding
+- This is a two part article
