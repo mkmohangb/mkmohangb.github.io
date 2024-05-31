@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Upwork, semantic search, openai"
+date:   2024-05-30
+categories: daily log
+---
+
+### Upwork
+- briefly looked at the problem of generating similar hash values for similar strings
+    - [simhash](https://github.com/1e0ng/simhash)
+
+### semantic search demo
+- tried the demo from [here](https://github.com/ashvardanian/usearch-images)
+    - had to revert the use of stringzilla.File
+    - use unum-cloud/uform3-image-text-multilingual-base instead of unum-cloud/uform-vl-multilingual-v2(onnx files were missing also there were no separate text/image model files)
+    - download urls mentioned in the README were incorrect
+    - when downloading from hf private repo need to add the bearer token to wget: ```--header="Authorization: Bearer <HF_TOKEN>"```
+
+### openai
+- spent sometime studying about assistants, function calling, file search.
+- also tried the following topics with [Ranedeer AI Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) as GPTs are now available with free account
+    - Intermediate/advanced python
+    - LLM deployment
+
+    
+
