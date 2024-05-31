@@ -26,3 +26,16 @@ categories: daily log
   
 ### LLMs for coding
 - This is a two part article
+- [part 1](https://towardsdatascience.com/llms-coding-chatgpt-python-artificial-intelligence-4ea7a7bbdd93)
+    - key areas that need improvement
+        1. Tokenizer - distribution of words, programming languages feature a restricted vocabulary, with repetitive structures and patterns where a minor typo or syntax error can lead to non-functionality. Also indentation with whitespaces may get ignored by traditional tokenizers (codex tokenzier takes care of this)
+        2. Context window - since this is limited, cannot take into consideration enough of the surrounding context to generate the code. 
+        3. Nature of the training - left to right, but for tasks like code infilling need right context awareness. Bidirectional training to overcome this problem - [Incoder](https://github.com/dpfried/incoder), [CodeCompose](https://arxiv.org/abs/2305.12050).
+     
+- [part 2](https://towardsdatascience.com/llms-coding-software-development-artificial-intelligence-68f195bb2ad3)
+    - Some insight into training LLMs for coding tasks specifically [Alphacode](https://www.science.org/doi/10.1126/science.abq1158). Here pretraining data also includes code samples like giving model ```print("``` and training it to predict the completion ```hello")```. In the fine-tuning phase given a coding problem, the model is trained to produce the solution.
+    - Moreover we can pass the right code context to the model as part of the prompt during inference.
+      
+      4. Ability to consult external databases dynamically for software updates and documentation might be limited.
+      5. May not provide the most efficient algorithms or optimize code for specific hardware or software environments. Also security needs to be kept in mind when executing AI generated code.
+       
