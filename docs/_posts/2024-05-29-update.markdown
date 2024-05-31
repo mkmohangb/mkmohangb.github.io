@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Upwork"
+date:   2024-05-29
+categories: daily log
+---
+
+### Upwork
+- Looked at semantic text similarity 
+    - [this](https://github.com/AndriyMulyar/semantic-text-similarity) package
+        - provides two models - web & clinical both based on BERT - outputs a score on a scale of 1-5
+    - Didn't get around to reading this [one](https://huggingface.co/tasks/sentence-similarity) on the HF site
+
+    - spent sometime on the Pinecone website related to DPR (Dense Passage Retriever)
+        - Dense vs Sparse embeddings
+    - [SPLADE](https://www.pinecone.io/learn/splade/)
+        - SPLADE - Sparse Lexical and Expansion Model for First Stage Ranking
+        - learnable sparse embeddings
+
+    - qdrant vector db, [tantivy](https://github.com/quickwit-oss/tantivy) - full-text search engine
+    
+
