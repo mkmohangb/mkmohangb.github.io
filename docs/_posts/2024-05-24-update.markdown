@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Upwork"
+date:   2024-05-24
+categories: daily log
+---
+
+### Upwork
+- learnt about [pyinstrument](https://github.com/joerick/pyinstrument)
+    - this set of [videos](https://calmcode.io/course/pyinstrument/introduction) do a good job explaining the main features
+    - key thing to note is that it is a statistical profiler - it measures on an interval to record what function is being called and by repeating this many times over a short interval it develops a good idea of where most of the time is spent...but as expected this won't be perfect.
+    - [sampler code](https://github.com/joerick/pyinstrument/blob/main/pyinstrument/stack_sampler.py)
+    - control sampling [interval](https://github.com/joerick/pyinstrument/blob/c4eac163b901a3cee160a74b1152de369c27cb54/pyinstrument/profiler.py#L50) for inline code
+    - there is a html render output
+    - Flamegraphs using [speedscope](https://www.speedscope.app/) render output is kool
+- used pyinstrument to find and fix the bottleneck in MinHash initialization
+
