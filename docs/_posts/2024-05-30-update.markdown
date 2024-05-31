@@ -17,10 +17,42 @@ categories: daily log
     - when downloading from hf private repo need to add the bearer token to wget: ```--header="Authorization: Bearer <HF_TOKEN>"```
 
 ### openai
-- spent sometime studying about assistants, function calling, file search.
+- spent sometime studying about assistants, [function calling](https://cookbook.openai.com/examples/how_to_call_functions_with_chat_models), file search.
 - also tried the following topics with [Ranedeer AI Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) as GPTs are now available with free account
     - Intermediate/advanced python
+      
+      <img width="329" alt="Screenshot 2024-05-31 at 11 23 19 AM" src="https://github.com/mkmohangb/mkmohangb.github.io/assets/2610866/1d869787-dc58-47e7-9b46-57bb3c7cd95a">
+
     - LLM deployment
+      - output:
+```
+    "prerequisite_curriculum": [
+        "0.1 Introduction to Machine Learning: Basic concepts and terminology.",
+        "0.2 Neural Networks: Understanding the basics of neural networks and their components.",
+        "0.3 Introduction to Large Language Models: Overview of LLMs and their applications.",
+        "0.4 Python Programming: Basics of Python programming, focusing on libraries used in ML (e.g., TensorFlow, PyTorch).",
+        "0.5 Data Preprocessing: Techniques for data cleaning and preprocessing.",
+        "0.6 Model Training: Basics of training neural networks, including loss functions and optimization algorithms.",
+        "0.7 Introduction to Transfer Learning: Understanding the concept of transfer learning and its benefits.",
+        "0.8 Basics of APIs: Introduction to APIs and how they work.",
+        "0.9 Introduction to Docker: Basics of containerization using Docker."
+    ],
+    "main_curriculum": [
+        "1.1 Understanding LLM Architectures: Detailed study of architectures like GPT, BERT, etc.",
+        "1.2 Model Fine-Tuning: Techniques for fine-tuning pre-trained models.",
+        "1.3 Data Handling for LLMs: Preprocessing and managing data for LLMs.",
+        "1.4 Deployment Platforms and Tools: Overview of tools like TensorFlow Serving, TorchServe.",
+        "1.5 Using APIs for Deployment: Deploying models using APIs.",
+        "1.6 Containerization with Docker: Advanced Docker usage for deploying models.",
+        "1.7 Orchestration with Kubernetes: Using Kubernetes for managing deployments.",
+        "1.8 Monitoring Deployed Models: Techniques and tools for monitoring model performance.",
+        "1.9 Performance Optimization: Strategies for optimizing deployed models.",
+        "1.10 Security in Deployment: Best practices for securing deployed models.",
+        "1.11 Case Studies: Real-world examples of LLM deployments.",
+        "1.12 Review and Assessments: Review of key concepts and assessments to test understanding."
+    ]
+```
+
 
     
 
