@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Event-driven arch"
+date:   2024-06-03
+categories: daily log
+---
+
+### Event-Driven Arch
+This [article](https://gillesbarbier.medium.com/the-way-we-are-building-event-driven-applications-is-misguided-7f7c5f1a9061) talks about taking the orchestration approach instead of choreography which is widely adopted in the industry and leads to technical debt.
+    
+
