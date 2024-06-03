@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event-driven arch"
+title:  "Event-driven arch, Distributed training"
 date:   2024-06-03
 categories: daily log
 ---
@@ -8,4 +8,14 @@ categories: daily log
 ### Event-Driven Arch
 This [article](https://gillesbarbier.medium.com/the-way-we-are-building-event-driven-applications-is-misguided-7f7c5f1a9061) talks about taking the orchestration approach instead of choreography which is widely adopted in the industry and leads to technical debt.
     
+### Distributed training
+This [article](https://magazine.sebastianraschka.com/p/accelerating-pytorch-model-training) talks about Mixed-precision training, the use of bfloat16 which extends the dynamic range of float-16 (conceived by Google for TPUs, is available in NVIDIA from Ampere architectures) ```torch.cuda.is_bf16_supported()```
+![image](https://github.com/mkmohangb/mkmohangb.github.io/assets/2610866/c2571100-f5dd-4967-a4e2-9a63049ee8da)
+
+and FSDP (Fully Sharded Data Parallelism) which utilizes both data and tensor parallelism.
+
+![image](https://github.com/mkmohangb/mkmohangb.github.io/assets/2610866/a4830c5d-bc99-4595-bd42-f5330e8e3737)
+
+
+[parallelisms](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/nlp/nemo_megatron/parallelisms.html)
 
