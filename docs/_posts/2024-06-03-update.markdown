@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Event-driven arch, Distributed training"
+title:  "Event-driven arch, Distributed training, aws"
 date:   2024-06-03
 categories: daily log
 ---
@@ -18,4 +18,13 @@ and FSDP (Fully Sharded Data Parallelism) which utilizes both data and tensor pa
 
 
 [parallelisms](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/nlp/nemo_megatron/parallelisms.html)
+
+### AWS
+- [certification](https://aws.amazon.com/certification/)
+  - Solutions Architect Associate
+  - courses
+    - [Adrian Cantrill](https://learn.cantrill.io/p/all-the-things-plus)
+    - [udemy - Stephane Maarek](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c03/)
+   
+
 
