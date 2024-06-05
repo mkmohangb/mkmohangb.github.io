@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Tiny stack"
+date:   2024-06-04
+categories: daily log
+---
+
+### Tiny stack
+- Read through this [blog post](https://logsnag.com/blog/the-tiny-stack) about Tiny stack which has Astro as Front end, sqlite as db and litestream for full db replication.
+    - [Astro](https://github.com/withastro/astro) is a web framework for content driven websites. We can continue to use our existing UI framework like React, Vue.
+    - [litestream](https://litestream.io/) - stream your db changes to S3, azure blob storage or NFS.
+   
+
+
