@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "AWS"
+date:   2024-06-05
+categories: daily log
+---
+
+### AWS
+- decided to try the AWS certified solutions architect course on Udemy. After going through a few reviews on yt & reddit, decided to go with Neal Davis(knowledge oriented) instead of Stephen Maarek(certification oriented).
+- Link to the [course](https://www.udemy.com/course/aws-certified-solutions-architect-associate-hands-on/?couponCode=ACCAGE0923)
+    - Exam format - 130 minutes - 65 questions - 150 USD$, 720/1000 to pass, multiple-choice & multiple-response questions
+        - Domain 1 - Design secure architectures
+        - Domain 2 - Design resilient architectures
+        - Domain 3 - Design High-performing architectures
+        - Domain 4 - Design cost-optimized architectures
+    - completed the section on IAM
+        - Users, User groups, Roles, Policy
+        - Permission boundaries are attached to users & roles, sets the maximum permissions that the entity can have.
+        - MFA - Multi-factor authentication (something you know -password, something you have-Authenticator app, something you are- fingerprint or iris scan)
+        - Identity-based policy, Resource-based policy, permission boundaries, aws organizations service control policies(SCP), session policies
+        - A *Principal* is a person or application that can make a request for an action or operation on an AWS resource
+        - Flowchart for IAM policy evaluation logic
+        - IAM best practices
+        - Architecture patterns - AWS IAM
+        - [IAM policy simulator](policysim.aws.amazon.com)
+
+
+
