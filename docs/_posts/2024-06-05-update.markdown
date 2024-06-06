@@ -22,7 +22,7 @@ categories: daily log
         - Flowchart for IAM policy evaluation logic
         - IAM best practices
         - Architecture patterns - AWS IAM
-        - [IAM policy simulator](policysim.aws.amazon.com)
+        - [IAM policy simulator](https://policysim.aws.amazon.com)
 
 
 
