@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "AWS, Performance"
+date:   2024-06-06
+categories: daily log
+---
+
+### AWS
+    - Half-way through the EC2 section.
+        - virtual server
+        - public / private / elastic IP address(static public IP)
+        - EC2 on public subnet connects to the internet via the internet gateway
+        - instance metadata service (IMDS) - v2 is more secure with requirement of a token in the http header
+        - user data can be used to run startup scripts when the instance boots up the *first* time
+        - example - accessing s3 from ec2 instance - instead of putting access key/secret in the instance, better to create a s3readaccess role and assign it to the instance.
+
+### Performance
+- went through a couple of slides on Resource analysis (OS, virtual memory, stack/heap, process/threads, scheduling, runtime, application profiling - static/dynamic, networking, cloud computing, async architectures)
+- started on the book [Systems Performance by Brendan Gregg](https://www.brendangregg.com/blog/2020-07-15/systems-performance-2nd-edition.html)
+
+        
+
+
