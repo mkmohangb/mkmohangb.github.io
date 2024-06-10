@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "AWS, Performance"
+date:   2024-06-07
+categories: daily log
+---
+
+### AWS
+    - Completed the EC2 section
+        - EC2 placement groups - Cluster, Partition, Spread
+        - Network interfaces - ENI (different subnet but within same AZ), ENA, EFA
+        - Elastic IP can be remapped across AZs, IGW performs 1:1 NAT for public IP addresses (so won't be visible if you do ipconfig/ifconfig in the EC2 instance)
+        - EC2 on Private subnet can be reached via bastion host on public subnet 
+        - NAT gateways (preferred) / NAT instances can be used to provide outbound Internet connection for EC2 on Private subnet.
+        - EC2 instance lifecycle - hibernate option supported by certain AMIs
+        - CloudWatch can be used to monitor system status checks and recover instance if needed.
+        - Nitro instances (next generation) - performance close to bare metal with virtualized instances, high network performance(100Gbps), dense storage instance(e.g. 60TB)
+        - Nitro Enclaves - isolated compute environments, runs on isolated and hardened virtual machines. For processing highly sensitive data like PII.
+        - Pricing - On-Demand, Spot, Reserved, Dedicated Instances, Dedicated Hosts, Savings Plans
+        - spot block - trade-off between spot and on-demand
+
+### Performance
+- Systems Performance book
+    - Counters, statistics, metrics, alerts
+    - profiling & flame graphs
+    - linux perf analysis in 60 secs - uptime, dmesg, sar vmstat, mpstat, pidstat, iostat, free, htop
+    - case studies
+    - Known-Unknowns - Known-knowns, Known-unknowns, Unknown-unknowns
+    - Queueing theory
+
+        
+
+
