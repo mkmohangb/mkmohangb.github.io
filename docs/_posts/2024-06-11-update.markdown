@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "AWS, Upwork"
+date:   2024-06-11
+categories: daily log
+---
+
+### AWS
+    - Completed the ELB & auto scaling section
+        - scaling up vs scaling out
+        - stateful (browses/purchases something on Amazon) vs stateless(checking the weather portal - no data is stored) apps
+        - EC2 auto scaling - integrates with CloudWatch(alarm) for monitoring & scaling, elastic (scale out/in)
+        - Use launch templates for the ec2 configuration
+        - health check - ec2 status check + elb health check
+        - types of auto-scaling - manual, dynamic, predictive (use ML), scheduled
+        - High Availability(minimal service interruption, lower cost, redundancy is used) vs Fault Tolerance(no service interruption, costlier, specialized hardware with instantaneous failover)
+        - Durability - protection against data loss, data corruption
+        - Availability - amount of time the data is available to access
+        - Elastic Load Balancing(ELB) - provides HA and FT
+        - Application LB (operates at L7, supports path-based, host-based, query-string-parameter based, source IP address based routing), Network LB(operates at L4, can have static/elastic IP), Gateway LB (used in front of virtual appliances like firwalls, IDS/IPS, deep packet inspection systems, operates at L3 - listens for all packets on all ports, exchanges traffic with appliances using the GENEVE protocol on port 6081)
+        - Dynamic scaling - Target tracking, Simple scaling, Step scaling, Scheduled scaling
+        - Cross-zone load balancing - LB node distributes traffic across the registered targets in all enabled AZs. With ALB, this is always enabled while with NLB & GLB this is disabled by default.
+        - session state & session stickiness - store session state in dynamo db or elastiCache, so even if instance fails user need not reauthenticate when a new instance takes control. 
+        - secure listeners for ELB - using ACM certificate vs public certificate
+
+### Upwork
+- Similar strings should produce similar hashes
+    - approach 1 - chatgpt approach - but doesn't look correct - running md5 hash on all the characters of a string and then taking the min.
+    - approach 2 - generate shingles and then update them to the Minhash. Xor the individual hashes from the hash  table. This doesn't work well because Minhash is used for measuring jaccard index which would be zero for the set ("hello", "hallo")
