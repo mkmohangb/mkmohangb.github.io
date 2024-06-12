@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-06-10
+categories: daily log
+---
+
+
+### Resources
+- Review the presentation on working with Resources
+    - Virtual memory, Stack/Heap, Runtime, Async architecture, Cloud & Scaling
+    - Static & Dynamic analysis, .NET/Java application profiling tools, perfmon/htop
+    - Time complexity, metrics to track
+    - Had a discussion on the agenda
+
+        
+
+
