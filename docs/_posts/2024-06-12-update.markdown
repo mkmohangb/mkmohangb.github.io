@@ -17,6 +17,8 @@ categories: daily log
         - Each VPC has a different block of IP addresses, CIDR - Classless Interdomain routing
         - You can create upto 5 VPCs per region
         - A default VPC is created in each region with a subnet in each AZ
+    
+- [ipv4 subnet calculator](https://www.site24x7.com/tools/ipv4-subnetcalculator.html)
 
 ### Upwork
 - Similar strings should produce similar hashes
