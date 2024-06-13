@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "AWS, Upwork"
+date:   2024-06-12
+categories: daily log
+---
+
+### AWS
+    - halfway through the VPC section
+        - Region > VPC > AZ > Subnet
+        - AWS Outposts, Wavelength zone, Local zone
+        - AZ usually corresponds to a data center, has redundant networking and power sources 
+        - CloudFront is a CDN on AWS
+        - structure of ipv4 address - network id/host id
+        - private address range as per RFC-1918 - 10.0.0.0 - 10.255.255.255, 172.16.0.0 - 172.31.255.255, 192.168.0.0 - 192.168.255.255
+        - VPC is a logically isolated portion of the AWS cloud within a region. IGW is attached to the VPC and used to connect to the internet. Route table is used to configure the VPC router. 
+        - Each VPC has a different block of IP addresses, CIDR - Classless Interdomain routing
+        - You can create upto 5 VPCs per region
+        - A default VPC is created in each region with a subnet in each AZ
+
+### Upwork
+- Similar strings should produce similar hashes
+    - going with simhash approach described [here](https://matpalm.com/resemblance/simhash/)
+- Read about LSH from [here](https://www.pinecone.io/learn/series/faiss/locality-sensitive-hashing/)
