@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "AWS, Upwork, Performance, Web hosting"
+date:   2024-06-13
+categories: daily log
+---
+
+### AWS
+    - Started off on S3
+        - S3 bucket - a bucket is a container for objects, can store millions of objects in a bucket
+        - accessing objects using HTTP protocol with REST API
+        - using S3 gateway endpoint, ec2 instances can connect to S3 using private addresses
+        - file storage(data stored in directories, directory hierarchy, file system mounted by OS, network connection is maintained, Amazon EFS) vs object storage (data stored in buckets, flat namespace, hierarchy can be mimicked with prefixes, accessed by REST API and cannot be mounted, network connection is closed after request)
+        - Durability (11 9s for S3)
+        - S3 storage classes - Standard, Intelligent tiering, standard-IA, One Zone-IA, Glacier instant retrieval, Glacier flexible retrieval, Glacier deep archive. (IA - Infrequent access)
+
+    - DNS
+        - DNS server - domain name is resolved to the IP address of the webserver
+        - Route53 - hosted zone - represents a set of records belonging to a domain
+        - Route53 - routing policies - Simple, failover, Geolocation, Geoproximity, Latency, Multivalue answer, Weighted, IP-based
+        - Route53 features - domain registration, hosted zone, health checks, traffic flow
+        - FQDN - Fully Qualified Domain name - www.example.com - www(host name), example(sub domain), com (top level domain)
+        - DNS record types - A(maps domain to IP address), CNAME(domain name to another domain name), MX(mail servers for domain name), TXT (associates text with domain name - used for verification, authorization), SRV (maps a domain name to specific service or protocol), NS (specifies the authoritative DNS servers for a particular domain), SOA (Start of Authority record stores important information about the domain)
+
+### Upwork
+- Completed the work and uploaded for review
+
+### Performance
+- Found a few resources related to detecting memory leaks in .NET using perfview and other tools
+  - [resource 1](https://www.youtube.com/watch?v=9QPgfJPaGvY)
+  - [resource 2](https://www.youtube.com/watch?v=hc0_mwC0blU)
+  - [resource 3](https://www.youtube.com/watch?v=FchQ2GUx5lY)
+
+### Web hosting
+- Went through a couple of [videos](https://www.youtube.com/watch?v=zbbjAGbBlBE) related to free web hosting and registered for an account on [webhostmost](https://webhostmost.com/)
