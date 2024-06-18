@@ -1,0 +1,22 @@
+---
+layout: post
+title:  ".NET, Upwork, Finish"
+date:   2024-06-14
+categories: daily log
+---
+
+### .NET
+- Watched this video on [.NET versions](https://www.youtube.com/watch?v=X75vbT-Yv-c)
+    - .NET Framework (no longer being developed) - tied to windows
+    - .NET core (complete rewrite of the framework which can work on Linux/Mac as well 
+    - Current version based on .NET core is 8.x. It is a LTS version.
+
+### Upwork
+- Incorporated feedback and completed the work. 
+    - for one of the implementations the hash was calculated at character level instead of word level.
+    - added benchmark tests using timeit to compare the two implementations namely [floc](https://github.com/hybridtheory/floc-simhash) and [scrapinghub](https://github.com/scrapinghub/python-simhash)
+    - Simhash vs Minhash
+
+
+### Finish by Jon Acuff
+- Read the first chapter - day after perfect -  perfectionism is the enemy
