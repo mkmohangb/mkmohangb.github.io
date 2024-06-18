@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "LLM Instruction FineTuning"
+date:   2024-06-17
+categories: daily log
+---
+
+### LLM Instruction Finetuning
+- Tried this [notebook](https://github.com/rasbt/LLMs-from-scratch/blob/main/ch07/01_main-chapter-code/ch07.ipynb) from the LLM-from-scratch [repo](https://github.com/rasbt/LLMs-from-scratch)
+- pretrained LLMs are good at generating the next word but is not good at following instructions
+- This [video](https://youtu.be/bZQun8Y4L2A?si=g6KGXz5oKLJLL6RX&t=698) by Karpathy explains it well. It is still Language Modeling but using a different dataset.
