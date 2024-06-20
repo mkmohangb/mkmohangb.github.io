@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "LLM FineTuning with ORPO, abliteration, merging, inner workings"
+date:   2024-06-19
+categories: daily log
+---
+
+### LLM Finetuning with ORPO
+- Tried this [notebook](https://colab.research.google.com/drive/1eHNWg9gnaXErdAa8_mcvjMupbSS6rDvi?usp=sharing) from this [blog](https://huggingface.co/blog/mlabonne/orpo-llama-3). But ran into GPU OOM with Colab T4. Have to try with a higher GPU configuration. 
+- Instead of doing SFT then RLHF, ORPO combines both these steps together so you do pretraining followed by ORPO pref. alignment. 
+- Why preference alignment is required because when SFT is done it increases the probability of generating undesirable answers alongside preferred ones. Pref. alignment stage widens the gap between the likelihoods of preferred and rejected outputs.
+- ORPO - Odds Ratio Preference Optimization adds a log odds ratio term to the NLL loss. This assigns weak penalty to rejected responses and a strong adaptation signal to the chosen reponses.
+
+
+### abliteration
+- Uncensor any LLM with [abliteration](https://huggingface.co/blog/mlabonne/abliteration)
+
+### Model merging
+- [Merge LLMs with Mergekit](https://huggingface.co/blog/mlabonne/merge-models)
+
+### Inner workings
+- A primer on the inner workings of Transformer based LMs [Mechanistic interpretability](https://arxiv.org/abs/2405.00208)
+- BERT rediscovers the classical NLP pipeline. [paper](https://arxiv.org/pdf/1905.05950)
