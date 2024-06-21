@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Resources, Data-driven"
+date:   2024-06-20
+categories: daily log
+---
+
+### Resources
+- Building up material to read around memory management, both windows & linux
+
+### Data-driven
+- Trying to come up with a flow for the presentation
+- Found these 2 papers [Big data in healthcare - Sabyasachi et al](https://journalofbigdata.springeropen.com/counter/pdf/10.1186/s40537-019-0217-0.pdf) and [Use of BDA in healthcare - Batko et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8733917/pdf/40537_2021_Article_553.pdf)
+- [24 examples](https://www.datapine.com/blog/big-data-examples-in-healthcare/) of using BDA in healthcare
+
+
