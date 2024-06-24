@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Resources, Data-driven, AI agents"
+date:   2024-06-21
+categories: daily log
+---
+
+### Resources
+- Got examples of memory leaks when writing code in .NET/C# from Claude
+
+### Data-driven
+- Got a set of slides from Claude/Chatgpt. Not clear on the motivation.
+
+### AI agents
+- Coding - [OpenDevin](https://github.com/OpenDevin/OpenDevin)
+    - collaborates with human developers to write code, fix bugs and ship features.
+
+
