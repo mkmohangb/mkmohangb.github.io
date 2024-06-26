@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Data-driven, Similarity, Gen AI, Erlang, patient readmission"
+date:   2024-06-25
+categories: daily log
+---
+
+### Data-driven
+- Gave up after thinking for an hour or so
+
+### Similarity
+- Went through this wonderful article on [simhash](https://ferd.ca/simhashing-hopefully-made-simple.html)
+    - simhash requires tuning(feature selection - word or shingle, weighting of features, selection of hash) based on the data
+- this [report](https://github.com/sumonbis/NearDuplicateDetection/blob/master/Report.pdf) on Near duplicate detection
+- this [answer](https://stackoverflow.com/a/12967538/5597718) on SO 
+
+### Gen AI
+- [Microsoft course](https://github.com/microsoft/generative-ai-for-beginners)
+
+### Erlang
+- Installed erlang. Read a few pages from this [book](https://learnyousomeerlang.com/content)
+
+### Patient readmission
+- [synthea](https://github.com/synthetichealth/synthea) - synthetic patient data and associated health records
+- [aws sample](https://github.com/aws-samples/aws-ml-readmission-prediction)
