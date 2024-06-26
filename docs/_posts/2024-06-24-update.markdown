@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Data-driven, Similarity, ML Eng, leetcode & sys design"
+date:   2024-06-24
+categories: daily log
+---
+
+### Data-driven
+- [Mayo clinic accelerate](https://www.mayoclinicplatform.org/accelerate/)
+
+### ML Engineering
+- [Book - ML Eng. with Python](https://github.com/PacktPublishing/Machine-Learning-Engineering-with-Python-Second-Edition)
+
+### Similarity
+- [Glue sts benchmark](https://www.kaggle.com/datasets/thedevastator/nli-dataset-for-sentence-understanding?select=stsb_train.csv)
+
+### leetcode & sys design
+- [leetcode](https://github.com/ashishps1/awesome-leetcode-resources)
+- [system design](https://github.com/ashishps1/awesome-system-design-resources)
+- [low level design](https://github.com/ashishps1/awesome-low-level-design)
+- [Google mock sd interview](https://www.youtube.com/watch?v=S1DvEdR0iUo)
+- [Google mock coding interview](https://www.youtube.com/watch?v=21pmwl0hrME)
