@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-06-27
+categories: daily log
+---
+
+### Resources
+- Watched these two videos from Mark Russinovich and took notes
+    - [video 1 - virtual memory](https://www.youtube.com/watch?v=TrFEgHr72Yg)
+        - Windows has demand-paged memory management
+        - Large pages - improve TLB performance
+        - 32 bit address space 
+            - 4GB memory - 2 GB system (common across processes), 2 GB user
+            - 3GB user, 1 GB system (another configuration, useful for loading large data into memory like loading a 2.5 GB sql server database)
+        - 64 bit address space
+            - 8 TB (user) + 8 TB (system) , 32 bit process - 4 GB (user) + 8TB (system)
+
+        - Committed (in use) / Reserved (for future use). Private (e.g. process heap) / shareable (e.g. exe, dll, shared memory, other memory mapped files) / free (not yet defined)
+        - why reserve memory ? For stack/ heap expansion.
+        - private bytes only tells part of the story - doesn’t account for shareable memory that’s not shared (e.g. DLLs loaded only by this process)
+        - managed code - leak memory through cycles / address space fragmentation e.g. visual studio 2010 rewritten in WPF and it ran out of address space due to fragmentation.
+        - VMMap - drill down
+        - Viewing fragmentation
+        - File mappings - Process explorer, look at mapping type code or data
+        - Procmon - can be used to look at file mappings and call stack as to why a dll was loaded.
+        - VMMap - diff snapshots - tracing - timeline feature
+        - system commit limit - physical memory + current paging files
+        - Process explorer - system info - commit history 
+        - viewing & changing system commit limit
+        - sizing the paging file - system can page out unused, modified private pages vs keeping them in RAM. 
+
+    - [video 2 - physical memory](https://www.youtube.com/watch?v=RsQyc4xiJeo)
+        - working set list - hard fault - resolved from file on disk, soft fault - resolved from memory
+        - min & max working set size
+        - perf. Counters - working set shareable, ws private, ws size (shareable + private)
+        - how copy-on-write works 
+        - managing physical memory - system keeps unassigned physical pages on one of several lists e.g. zero page list, ROM page list - FIFO lists - PFN database
+        - viewing the paging lists with task manager - under physical memory
+        - RamMap 
+        - SuperFetch
+        - Memory priority
+        - When does process start stealing working set pages from other processes?
+        - Do you have enough memory? Look at page reads via procmon
+        - Hidden cost of reserved memory 
+        - try test limit tool 
