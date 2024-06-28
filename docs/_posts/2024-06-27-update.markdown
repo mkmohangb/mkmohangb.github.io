@@ -15,7 +15,6 @@ categories: daily log
             - 3GB user, 1 GB system (another configuration, useful for loading large data into memory like loading a 2.5 GB sql server database)
         - 64 bit address space
             - 8 TB (user) + 8 TB (system) , 32 bit process - 4 GB (user) + 8TB (system)
-
         - Committed (in use) / Reserved (for future use). Private (e.g. process heap) / shareable (e.g. exe, dll, shared memory, other memory mapped files) / free (not yet defined)
         - why reserve memory ? For stack/ heap expansion.
         - private bytes only tells part of the story - doesn’t account for shareable memory that’s not shared (e.g. DLLs loaded only by this process)
@@ -36,6 +35,7 @@ categories: daily log
         - perf. Counters - working set shareable, ws private, ws size (shareable + private)
         - how copy-on-write works 
         - managing physical memory - system keeps unassigned physical pages on one of several lists e.g. zero page list, ROM page list - FIFO lists - PFN database
+          <img width="827" alt="paging-dynamics" src="https://github.com/mkmohangb/mkmohangb.github.io/assets/2610866/78ca9a2a-9bd1-4613-93bb-3731b1846517">
         - viewing the paging lists with task manager - under physical memory
         - RamMap 
         - SuperFetch
