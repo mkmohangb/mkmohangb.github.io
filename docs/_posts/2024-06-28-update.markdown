@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Resources, Java Webapp"
+date:   2024-06-28
+categories: daily log
+---
+
+### Resources
+- Virtual memory 
+    - Half-way through chapter 9 of Computer Systems: A programmer's perspective which talks about Virtual Memory
+        - VM as a tool for caching
+            - Virtual pages, Physical pages
+            - page table maps virtual pages to physical pages
+            - page table is an array of page table entries (PTEs)
+            - page fault, page fault exception
+            - swapped in disk to DRAM, swapped out DRAM to disk
+            - demand paging - waiting until the last moment to swap in a page
+            - working set / resident set
+        - VM as a tool for memory management
+            - multiple virtual pages can be mapped to the same physical page
+            - simplifies loading, sharing, memory allocation
+        - VM as a tool for memory protection.
+            - separate virtual address spaces makes it easy to isolate the private memories of different processes
+            - adding permission bits in PTE to control access
+        - Address translation
+            - speeding up address translation with TLB
+            - multi-level page tables
+
+### Java Webapp
+- Tried the example Java Servlet web app from [here](https://www.marcobehler.com/courses/spring-professional)
