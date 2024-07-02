@@ -22,4 +22,8 @@ categories: daily log
             - VisualVM
             - Eclipse MAT standalone with Calcite MAT SQL plugin(SQL query engine)
 - Static Analysis
-    - Installed SonarQube locally and ran it on the java-perf-workshop repo
+    - Installed [SonarQube](https://docs.sonarsource.com/sonarqube/latest/setup-and-upgrade/install-the-server/introduction/) locally and ran it on the java-perf-workshop repo
+    - Used Postgres as db - created sonarqube user, sonarqube database and my_schema within db.
+    - Elastic search needs to have more than 10% disk space free
+    - ![image](https://github.com/mkmohangb/mkmohangb.github.io/assets/2610866/8bd58893-1f7e-4d2a-a0bd-b08da11fc606)
+
