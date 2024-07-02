@@ -9,6 +9,11 @@ categories: daily log
 - Virtual memory 
     - chapter 9 of Computer Systems: A programmer's perspective which talks about Virtual Memory
 
+- Static program analysis, [wiki](https://en.wikipedia.org/wiki/Static_program_analysis), [Tools](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis)
+
+- Dynamic program analysis, [wiki](https://en.wikipedia.org/wiki/Dynamic_program_analysis)
+    
+
 - Static Analysis
     - Installed [SonarLint](https://www.sonarsource.com/products/sonarlint/) on IntelliJ and explored Connected mode (link it to SonarQube)
     - SonarQube - definition of new code, [scanners](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-maven/), [test coverage](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/test-coverage/java-test-coverage/) integration with other tools, can be triggered based on pull request, can target a specific branch, CI integration to suspend pipeline if quality gate fails (can be setup as a github action)
@@ -16,3 +21,12 @@ categories: daily log
     - Rules - 4 types - code smell (maintainability), bug (reliability), vulnerability (security), security hotspot (security). [Reference](https://docs.sonarsource.com/sonarqube/latest/user-guide/rules/overview/)
     - [Quality profiles](https://docs.sonarsource.com/sonarqube/latest/instance-administration/quality-profiles/) define the set of rules to be applied during code analysis.
     - [Quality gates](https://docs.sonarsource.com/sonarqube/latest/user-guide/quality-gates/) enforce a quality policy in your organization by answering one question: is my project ready for release ?
+
+- Dynamic Analysis
+    - [Dynamic data race prediction](https://www.youtube.com/watch?v=5AZIQFeluIY)
+        - concurrency bugs inevitably find their way into concurrent software despite rigorous development-time testing. Data races are arguably the most insidious amongst concurrency bugs and are particularly hard to detect.
+    - [Learning from executions: Dynamic analysis for software engineering and program understanding](https://homes.cs.washington.edu/~mernst/pubs/dynamic-tutorial-ase2005-abstract.html)
+    - [race detection](https://github.com/google/sanitizers/wiki/ThreadSanitizerCppManual)
+    - [using go dynamic race detector at uber](https://www.uber.com/en-IN/blog/dynamic-data-race-detection-in-go-code/)
+    - [Slicer4J - dynamic slicing](https://github.com/resess/Slicer4J)
+
