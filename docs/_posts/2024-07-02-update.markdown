@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-07-02
+categories: daily log
+---
+
+### Resources
+- Virtual memory 
+    - chapter 9 of Computer Systems: A programmer's perspective which talks about Virtual Memory
+
+- Static Analysis
+    - Installed [SonarLint](https://www.sonarsource.com/products/sonarlint/) on IntelliJ and explored Connected mode (link it to SonarQube)
+    - SonarQube - definition of new code, [scanners](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/scanners/sonarscanner-for-maven/), [test coverage](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/test-coverage/java-test-coverage/) integration with other tools, can be triggered based on pull request, can target a specific branch, CI integration to suspend pipeline if quality gate fails (can be setup as a github action)
+    - Clean Code [definition](https://docs.sonarsource.com/sonarlint/intellij/concepts/clean-code/definition/)
+    - Rules - 4 types - code smell (maintainability), bug (reliability), vulnerability (security), security hotspot (security). [Reference](https://docs.sonarsource.com/sonarqube/latest/user-guide/rules/overview/)
+    - [Quality profiles](https://docs.sonarsource.com/sonarqube/latest/instance-administration/quality-profiles/) define the set of rules to be applied during code analysis.
+    - [Quality gates](https://docs.sonarsource.com/sonarqube/latest/user-guide/quality-gates/) enforce a quality policy in your organization by answering one question: is my project ready for release ?
