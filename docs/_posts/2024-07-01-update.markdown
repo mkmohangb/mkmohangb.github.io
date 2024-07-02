@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-07-01
+categories: daily log
+---
+
+### Resources
+- Virtual memory 
+    - chapter 9 of Computer Systems: A programmer's perspective which talks about Virtual Memory
+        - case study: intel core i7
+            - 4 level page tables
+            - CR3 control register contains the physical address of the beginning of the Level 1 page table
+            - L1, L2, L3 caches (physicall addressed), TLBs are virtually addressed
+
+- Dynamic Analysis
+    - this [perf workshop](https://github.com/cchesser/java-perf-workshop/) is good
+        - had to install java8 to get it working (```brew install --cask zulu@8```, jdk installed at ```/Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home/bin/java```)
+        - Tried the following tools:
+            - jcmd
+            - jmc and flight recorder
+            - VisualVM
+            - Eclipse MAT standalone with Calcite MAT SQL plugin(SQL query engine)
+- Static Analysis
+    - Installed SonarQube locally and ran it on the java-perf-workshop repo
