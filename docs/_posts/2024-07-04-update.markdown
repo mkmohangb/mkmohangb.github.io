@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-07-04
+categories: daily log
+---
+
+### Resources
+- Virtual memory 
+    - chapter 9 of Computer Systems: A programmer's perspective which talks about Virtual Memory
+
+- Installed wsl on windows
+    - tried valgrind 
+        - memory checker - tried the basic examples available [here](https://valgrind.org/docs/manual/mc-manual.html)
+        - Helgrind - thread error detector - tried an example from [here](https://valgrind.org/docs/manual/hg-manual.html)
+
+    - ran a memory leak example and checked the managed heap usage on VMMap
+    - learnt some [async programming in C#](https://learn.microsoft.com/en-us/dotnet/csharp/asynchronous-programming/)
+    - Everything you need to know about [.NET memory](https://vimeo.com/113632451)
+
+- on memory & multithreading
+    - [OOM does not refer to physical memory](https://learn.microsoft.com/en-us/archive/blogs/ericlippert/out-of-memory-does-not-refer-to-physical-memory)
+    - [Every dev needs to know about multithreaded apps](https://learn.microsoft.com/en-us/archive/msdn-magazine/2005/august/concurrency-what-every-dev-must-know-about-multithreaded-apps)
+
+- Java resources
+    - Univ. of Helsinki, Java [mooc](https://java-programming.mooc.fi/)
+    - Jetbrains hyperskill [advanced java](https://hyperskill.org/tracks/35)
+    
