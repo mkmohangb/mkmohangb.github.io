@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-07-08
+categories: daily log
+---
+
+### Resources
+- Virtual memory 
+    - chapter 9 of Computer Systems: A programmer's perspective which talks about Virtual Memory
+        - 9.6.3 why multi-level page tables are memory efficient?
+            - level 2 page tables have to exist only for valid entries in level1 page table
+            - only level 1 page table needs to exist in main memory at all times, level 2 tables can be created and paged in and out as needed. Cache only the most heavily used level 2 page tables in memory.
+            - TLBs used to cache PTEs from page tables at different levels.
+        - 9.8 Memory mapping in Linux
+            - mapping a regular file or anonymous file(demand-zero pages)
+            - copy-on-write
+
+    - Simulating OOM using pandas
+        - with a 8.4G csv file from [here](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store/data)
+        - OS swap space starts getting used once it runs out of main memory. Disabling paging, no paging file under Virtual memory as detailed [here](https://theitbros.com/swapfile-sys-windows-10/) was able to reproduce the memory error on Windows. For WSL, had to ```echo 2 >/proc/sys/vm/overcommit_memory``` to reproduce the Memory error. More details [here](https://www.kernel.org/doc/Documentation/vm/overcommit-accounting) - ```2``` - Don't overcommit. The total address space commit for the system is not permitted to exceed swap + a configurable amount (default is 50%) of physical RAM. This means a process will not be killed while accessing pages but will receive errors on memory allocation as appropriate.
+
+- source code of sysinternals available [here](https://github.com/xcud/sysinternals-source/tree/master/download.sysinternals.com/Files)
+    - looked at the source code of TestLimit - can be used to leak memory among other things.
+
+- Skimmed through this [article](https://www.gamedeveloper.com/programming/virtual-memory-tricks) on Virtual Memory tricks. Need to read in depth and assimilate
+
