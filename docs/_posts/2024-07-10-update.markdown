@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-07-10
+categories: daily log
+---
+
+### Resources
+- Virtual memory 
+    - chapter 9 of Computer Systems: A programmer's perspective which talks about Virtual Memory
+
+- Windows 
+    - experimented with the page size using the pandas using the data from [here](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store/data). Only with the min. page size set to 4 GB the system didn't crash. 
+    - Read this [article](https://learn.microsoft.com/en-gb/archive/blogs/markrussinovich/pushing-the-limits-of-windows-virtual-memory) by Mark Russinovich about Virtual Memory. Tried the expt. with reserving memory using TestLimit. Didn't try the option to commit. How big should the paging file be? ```commit limit``` is the sum of physical memory and the sizes of the paging files.
+    - Also about [Physical Memory](https://techcommunity.microsoft.com/t5/windows-blog-archive/pushing-the-limits-of-windows-physical-memory/ba-p/723674). There is [PAE](https://learn.microsoft.com/en-us/windows/win32/memory/physical-address-extension) which allows x86 processors to access more than 4GB memory on 32 bit systems. Out of CPU, memory & disk - memory is the most important. There is a perfmon counter called ```Available Bytes``` to monitor available memory apart from manually checking it via Task Manager. This is a nice summary, "Because most systems access more code and data than can fit in physical memory as they run, physical memory is in essence a window into the code and data used over time." 
+    - Also went through this article on multithreading 
+    - there are some holes in the physical memory layout - address ranges taken up by physical devices like GPU. See [meminfo](https://github.com/zodiacon/WindowsInternals/tree/master/MemInfo) tool and device manager(```devmgmt.msc```)
+    - On Linux, we can use ```vmstat``` to monitor Virtual Memory usage. Intro article [here](https://www.linuxjournal.com/article/8178). Page outs can be a sign of trouble. ```si and so``` columns show page in and page out activity respectively. 
+    - Read the article on [multithreading](https://learn.microsoft.com/en-us/archive/msdn-magazine/2005/august/concurrency-what-every-dev-must-know-about-multithreaded-apps), also shared it as pre-read.
