@@ -11,8 +11,12 @@ categories: daily log
 
     - Went through a series of articles about virtual address space and virtual memory. In windows, these are two different steps. You can allocate virtual memory(```CreateFileMapping```) without it being part of the address space of the process(```MapViewOfFile```) unlike in Linux ```mmap``` does both. See this [article](https://devblogs.microsoft.com/oldnewthing/20040810-00/?p=38203) by Raymond Chen. Map the same shared memory location to two addresses, code [here](https://web.archive.org/web/20040601143753/http://weblogs.asp.net/oldnewthing/archive/2003/10/07/55194.aspx)
     - The material in this [article](https://answers.microsoft.com/en-us/windows/forum/windows_10-performance/physical-and-virtual-memory-in-windows-10/e36fb5bc-9ac8-49af-951c-e7d39b979938) gives an excellent overview of Physical & Virtual Memory
-    - Found this free OS book, [OS: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+
+- Found this free OS book, [OS: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/)
         - Virtualization, Concurrency and Persistence
 
-    - SIMD for html parsing using C# explained in this [article](https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/) with source code. Ran the benchmark on Mac.
-    - [Websockets from scratch](https://www.youtube.com/watch?v=rc_zVASAajU)
+- SIMD for html parsing using C# explained in this [article](https://lemire.me/blog/2024/06/08/scan-html-faster-with-simd-instructions-chrome-edition/) with source code. Ran the benchmark on Mac.
+- [Websockets from scratch](https://www.youtube.com/watch?v=rc_zVASAajU)
+
+- Asked Claude to provide me inputs/slides on how to go about covering the various topics.
+    - e.g. Linear scaling using Async arch over multi-threading and run benchmark code using Locust.
