@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Codecrafters"
+date:   2024-07-11
+categories: daily log
+---
+
+### Codecrafters
+- half-way through the [http server exercise](https://app.codecrafters.io/courses/http-server/overview) in Python   - http response with body and handle concurrent connections
