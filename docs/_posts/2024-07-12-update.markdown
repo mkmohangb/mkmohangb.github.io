@@ -9,5 +9,8 @@ categories: daily log
 - completed the [http server exercise](https://app.codecrafters.io/courses/http-server/overview) in Python   
     - handle 'Accept-Encoding' with gzip compression
 
-- Started the [build your own interpreter](https://app.codecrafters.io/courses/interpreter) exercise
+- Started the [build your own interpreter](https://app.codecrafters.io/courses/interpreter/overview) exercise
     - it involves writing an interpreter for the Lox language. Based on the book [Crafting Interpreters](https://craftinginterpreters.com/) by Robert Nystorm
+
+- Found this interesting book on [Staff Engineer](https://staffeng.com/)
+    - the missing guide to becoming a staff engineer
