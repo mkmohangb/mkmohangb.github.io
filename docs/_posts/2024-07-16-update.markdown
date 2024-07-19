@@ -21,3 +21,4 @@ categories: daily log
 
 ### Resources
     - Dynamic Program Analysis using [Resharper](https://www.jetbrains.com/help/resharper/Dynamic_Program_Analysis.html)
+    - SIMD Vector API in [Java](https://www.youtube.com/watch?v=36DN9sE7ja4)
