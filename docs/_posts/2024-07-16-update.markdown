@@ -6,19 +6,19 @@ categories: daily log
 ---
 
 ### Crafting Interpreters
-    - [Crafting Interpreters](https://craftinginterpreters.com/) by Robert Nystorm
-        - read the first 3 chapters of the book
-            - Two interpreters - one based on Java(jlox) and the other based on C(clox)
-            - Code is available [here](https://github.com/munificent/craftinginterpreters.git)
-            - second chapter compares the source code => execution as a trekking up and down a hill
-                - the steps involved include scanning, parsing, static analysis (front end, climbing up)
-                - intermediate representation, optimization, code generation (back end, descending)
-                - Virtual machine, Runtime
-                - Shortcuts - Transpiler, Tree walk interpreter, JIT
-                - Compiler (translates source code into some other form but doesn't execute it), 
-                - Interpreter (takes in source code and executes it immediately)
-            - third chapter describes the supported types, syntax, functions, classes, standard library of the Lox language
+- [Crafting Interpreters](https://craftinginterpreters.com/) by Robert Nystorm
+  - read the first 3 chapters of the book
+    - Two interpreters - one based on Java(jlox) and the other based on C(clox)
+    - Code is available [here](https://github.com/munificent/craftinginterpreters.git)
+    - second chapter compares the source code => execution as a trekking up and down a hill
+        - the steps involved include scanning, parsing, static analysis (front end, climbing up)
+        - intermediate representation, optimization, code generation (back end, descending)
+        - Virtual machine, Runtime
+        - Shortcuts - Transpiler, Tree walk interpreter, JIT
+        - Compiler (translates source code into some other form but doesn't execute it), 
+        - Interpreter (takes in source code and executes it immediately)
+    - third chapter describes the supported types, syntax, functions, classes, standard library of the Lox language
 
 ### Resources
-    - Dynamic Program Analysis using [Resharper](https://www.jetbrains.com/help/resharper/Dynamic_Program_Analysis.html)
-    - SIMD Vector API in [Java](https://www.youtube.com/watch?v=36DN9sE7ja4)
+- Dynamic Program Analysis using [Resharper](https://www.jetbrains.com/help/resharper/Dynamic_Program_Analysis.html)
+- SIMD Vector API in [Java](https://www.youtube.com/watch?v=36DN9sE7ja4)
