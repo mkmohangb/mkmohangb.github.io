@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Resources, Computer Vision"
+date:   2024-07-18
+categories: daily log
+---
+
+### Resources
+    - watched this wonderful [lecture](https://www.youtube.com/watch?v=1Qmvme70w9c) on journey of .NET object by Maoni Stephens
+        - installed windbg, sos extension tried a few commands mentioned in the lecture
+        - also tried the example from [here](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/getting-started-with-windbg) of attaching to Notepad and a simple c++ exe
+        - configuring VS code for [MS C++] (https://code.visualstudio.com/docs/cpp/config-msvc)
+        - Explanation of nanoseconds by the [Admiral Grace Hopper](https://www.youtube.com/watch?v=9eyFDBPk4Yw)
+        - Latency numbers every programmer should know. From [SO](https://nickcraver.com/blog/2019/08/06/stack-overflow-how-we-do-app-caching/) and [Simon Eskildsen](https://github.com/sirupsen/napkin-math)
+
+### Computer Vision
+    - registered for DL4CV course from [NPTEL](https://onlinecourses.nptel.ac.in/noc24_cs89/course)
