@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-07-17
+categories: daily log
+---
+
+### Resources
+    - started making some slides
+    - C++ Atomics - [race condition](https://www.linkedin.com/pulse/inside-mind-c-atomics-mariam-el-shakafi/)
+    - [Going Atomic] (https://courses.cs.vt.edu/~cs5204/fall07-kafura/Papers/TransactionalMemory/Java%20theory%20and%20practice_%20Going%20atomic.pdf) by Brian Goetz 
+        - problems with locking - if the blocked thread is of higher priority (priority inversion), deadlocks, coarse grained coordination mechanism and fairly heavyweight for managing a simple operation such as incrementing a counter
+        - modern processors have instructions for updating shared variables 
+        - nonblocking algorithms - Lock free & Wait free
+        - nonblocking algorithms have been discovered for many common data structures. Nonblocking algorithms are used extensively at the operating system and JVM level for tasks such as thread and process scheduling.
+        - while more complicated to implement, have a number of advantages over lock-based alternatives 
+            - hazards like priority inversion and deadlock are avoided, 
+            - contention is less expensive
+            - coordination occurs at a finer level of granularity, enabling a higher degree of parallelism
+        - java.util.concurrent.atomic package - atomic variable classes all expose a compare-and-set primitive (similar to compare-and-swap), which is implemented using the fastest native construct available on the platform (compare-and-swap, load linked/store conditional, or, in the worst case, spin locks).
+        - The atomic variable classes can be thought of as a generalization of ```volatile``` variables, extending the concept of volatile variables to support atomic conditional compare-and-set updates. Reads and writes of atomic variables have the same memory semantics as read and write access to volatile variables.
+        - Under the hood, operations on atomic variables get turned into the hardware primitives that the platform provides for concurrent access, such as compare-and-swap.
+        - Classes like ```ConcurrentLinkedQueue``` use atomic variables to directly implement wait-free algorithms, and classes like ```ConcurrentHashMap``` use ```ReentrantLock``` for locking where needed. ```ReentrantLock```, in turn, uses atomic variables to maintain the queue of threads waiting for the lock.
+        - Developers may find use for atomic variables directly as a higher-performance replacement for shared counters, sequence number generators, and other independent shared variables that otherwise would have to be protected by synchronization.
+    - went through the examples [here](https://github.com/alx-tools/Hack-The-Virtual-Memory) around hacking the ```/proc/[pid]/maps``` in Linux
+    - Found this useful [tool](https://github.com/winsiderss/systeminformer) called system informer
+    - Lock every available memory region of an arbitrary process into its working set. [It](https://github.com/0vercl0k/lockmem) uses ```ntdll!NtLockVirtualMemory``` (syscall used internally by VirtualLock). [VirtualLock](https://learn.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-virtuallock) - Locks the specified region of the process's virtual address space into physical memory, ensuring that subsequent access to the region will not incur a page fault.
