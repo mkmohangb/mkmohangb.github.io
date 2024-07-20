@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Resources, C++"
+date:   2024-07-19
+categories: daily log
+---
+
+### Resources
+- succint explanation of Virtual memory by Gary [here](https://www.youtube.com/watch?v=2quKyPnUShQ)
+- [Linux perf tools by Brendan Gregg](https://www.youtube.com/watch?v=FJW8nGV4jxY) 
+    - slides [here](https://www.slideshare.net/slideshow/velocity-2015-linux-perf-tools/48679212)
+    - tool types - observability, benchmarking, tuning, static
+    - Methodologies
+        - street light anti-method, drunk man anti-method, blame someone else anti-method
+        - Problem statement method, workload characterization method, USE method, Off-CPU analysis, CPU profile method, RTFM method, Active benchmarking, static performance tuning
+    - USE method - Utilization, Saturation, Errors
+    - Observability tools
+      - basic - uptime, top, ps, vmstat, iostat, mpstat, free
+      - intermediate - strace, tcpdump, netstat, nicstat, pidstat, swapon, lsof, sar, ```atop```
+      - advanced - ltrace, ss, iptraf, ethtool, snmpget, lldptool, iotop, blktrace, slaptop, /proc, pcstat
+                 - cpu perf counters - perf_events, tiptop, rdmsr
+                 - advanced tracers - perf_events, ftrace, eBPF, SystemTap, ktap, LTTng, dtrace4linux, sysdig
+- dotnet performance 
+    - found this useful [answer](https://stackoverflow.com/questions/75897175/how-to-monitor-basic-net-7-app-performance-stats-in-production) on SO about using [dotnet-counters](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-counters) and [dotnet-monitor](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/dotnet-monitor)
+- halfway through this article on [lock-free programming](https://medium.com/@tylerneely/fear-and-loathing-in-lock-free-programming-7158b1cdd50c)
+
+### C++
+- watched this [video](https://www.youtube.com/watch?v=BYMYIpf7wVs) on cout
