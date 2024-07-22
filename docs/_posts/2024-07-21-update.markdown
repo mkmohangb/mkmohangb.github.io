@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Resources, C++"
+date:   2024-07-19
+categories: daily log
+---
+
+### Resources
+- [VM in practice](https://gist.github.com/CodingKoopa/4c9e558c087f27e036988d80a6dbfc08) on windows & linux
+- Linux [overcommit settings](https://web.archive.org/web/20190123074015/http://engineering.pivotal.io/post/virtual_memory_settings_in_linux_-_the_problem_with_overcommit/)
+- what is an [address space](https://web.archive.org/web/20051124134734/http://blogs.msdn.com/oldnewthing/archive/2004/08/05/208908.aspx)
+- read [this](https://learn.microsoft.com/en-us/archive/msdn-magazine/2005/october/understanding-low-lock-techniques-in-multithreaded-apps) article by Vance Morrison on Lock-free programming
+- [ABA problem](https://www.educative.io/answers/what-is-the-aba-problem) in lock-free programming
+- incorporate this [known-unknows matrix](https://medium.com/@andreamantovani/known-knowns-known-unknowns-unknown-unknowns-leadership-367f346b0953) in the presentation
+
+- SIMD
+  - [vectors in java](https://jbaker.io/2022/06/09/vectors-in-java/)
+  - [using SIMD in a real-life engg. usecase](https://github.com/Teradata/presto-tech/blob/master/blogs/simd.md)
+    
+- Parallel processing
+  - cache coherence etc. by [MIT OCW](https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c21/c21s1/)
+
+- Python - [memory management with threading](https://discuss.python.org/t/memory-managment-with-threading/37644/2)   - slow leak example using functools cache
+  - why it is easier to manage a long running worker process than thread?
+
+- [Database Concurrency Control](https://agiledata.org/essays/concurrencyControl.html)
+  - optimistic locking vs pessimistic locking  
+  - this [illustrated answer](https://stackoverflow.com/a/58952004/5597718) on SO is good. Also [this](https://stackoverflow.com/questions/21120043/optimistic-locking-by-concrete-java-example) one using Java Hibernate
+  - [NoSQL CouchDB](https://stackoverflow.com/questions/76839678/optimistic-locking-in-base-style-databases)
+    - CAS - Compare and Swap operation
+  - [C# Entity Framework](https://learn.microsoft.com/en-us/ef/core/saving/concurrency?tabs=data-annotations)
+  - [other essays](https://agiledata.org/essays/)
+
+- [Unlocking performance in .NET](https://www.youtube.com/watch?v=zoeqyuvZroc)
+  - Microbenchmarks
+  - hardware intrinsincs - vectorization - System.Runtime.Intrinsics - Vector, Vector<T>,Vector64<T> 
+    - used in Span, String JsonSerializer, WebSocket ...
+    - string.Contains is 90% faster on .Net core than .Net framework
+  - GC Pause time
+  - [benchmarkdotnet](https://github.com/dotnet/BenchmarkDotNet)
+
+- [parsing JSON quickly](https://www.youtube.com/watch?v=wlvKAT7SZIQ)
+  - CPU cycles different from time, time can be noisier than CPU cycles
+  - [github](https://github.com/simdjson/simdjson)
+  - [Daniel's blog](https://lemire.me/blog/about-me/) - lots of perf. goodies
