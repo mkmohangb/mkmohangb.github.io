@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-08-04
+categories: daily log
+---
+
+### Resources
+- Async adventures
+  - C# vs Python - [SO](https://stackoverflow.com/questions/56245509/start-async-task-now-await-later)
+        - seems like in C# the async task starts off immediately while in python there is hack needed to achieve the same
+
+  - [asyncio in python3](https://www.youtube.com/watch?v=M-UcUs7IMIM)
+  - [David Beazley concurrency from ground up](https://www.youtube.com/watch?app=desktop&v=MCs5OvhV9S4)
+    - Talks about the impact of GIL using socket server - client
+        - socket server returns the nth fibonacci number
+        - making the server side multithreaded doesn't help with the turn around time for client as the work is cpu intensive
+        - also GIL prioritizes cpu intensive task, if there is one client repeatedly asking for the 1st fibonacci number(throughput is x requests/sec), and there is a second client requesting for the 50th fibonacci number, then the first client sees a drastic dip in the requests/sec => x to x/1000
+    - [Raymond Hettinger keynote on concurrency](https://www.youtube.com/watch?v=9zinZmE3Ogk)
+        - [slides from wayback machine](https://web.archive.org/web/20180110194316/http://pybay.com/site_media/slides/raymond2017-keynote/intro.html)
+
