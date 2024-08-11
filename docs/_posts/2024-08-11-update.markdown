@@ -9,8 +9,8 @@ categories: daily log
 - [Database tuning at ZD](https://www.youtube.com/watch?v=XB2lF_Z9cbs)
 - [perf. analysis with atop](https://www.youtube.com/watch?v=27AtCR5ftyM)
 
-- memory leak
-    Dump multiple times and take the diff to see the memory leak
+- memory leak (.NET)
+    - Dump multiple times and take the diff to see the memory leak
     - dotnet dump
     - debug with managed only
     - paths to root
