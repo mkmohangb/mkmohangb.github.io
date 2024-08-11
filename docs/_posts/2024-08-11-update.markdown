@@ -8,3 +8,19 @@ categories: daily log
 ### Resources
 - [Database tuning at ZD](https://www.youtube.com/watch?v=XB2lF_Z9cbs)
 - [perf. analysis with atop](https://www.youtube.com/watch?v=27AtCR5ftyM)
+
+- memory leak
+    Dump multiple times and take the diff to see the memory leak
+    - dotnet dump
+    - debug with managed only
+    - paths to root
+    - ```dotnet-dump analyze <dump file>```
+        - use ```sos commands``` to analyze
+        - ```eeheap -gc```
+        - ```dumpheap -stat```
+        - ```dumpheap -mt```
+        - ```gcroot <addr>```
+    - static object or long lived thread object holding (OOM) - you have a cache of objects
+    - native code is holding onto memory (OOM) - gc is not aware of this
+    - this becomes apparent with containers where we restrict the memory to the system
+
