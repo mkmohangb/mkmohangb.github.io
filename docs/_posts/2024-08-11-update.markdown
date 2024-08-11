@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Resources"
+date:   2024-08-11
+categories: daily log
+---
+
+### Resources
+- [Database tuning at ZD](https://www.youtube.com/watch?v=XB2lF_Z9cbs)
+- [perf. analysis with atop](https://www.youtube.com/watch?v=27AtCR5ftyM)
