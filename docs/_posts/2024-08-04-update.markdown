@@ -19,3 +19,5 @@ categories: daily log
     - [Raymond Hettinger keynote on concurrency](https://www.youtube.com/watch?v=9zinZmE3Ogk)
         - [slides from wayback machine](https://web.archive.org/web/20180110194316/http://pybay.com/site_media/slides/raymond2017-keynote/intro.html)
 
+- [Async vs Sync benchmark](https://medium.com/azlamps/async-vs-sync-benchmark-net-f1e752a57755)
+- [Get to grips with asyncio](https://www.youtube.com/watch?v=M-UcUs7IMIM)
