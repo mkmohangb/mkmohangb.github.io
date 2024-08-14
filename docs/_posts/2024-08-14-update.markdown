@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Cursor + Claude"
+date:   2024-08-14
+categories: daily log
+---
+
+### Cursor + Claude
+  - [System prompt](https://www.reddit.com/r/ClaudeAI/comments/1dwra38/sonnet_35_for_coding_system_prompt/)
+  - [Coding with Cursor - session 1](https://www.youtube.com/watch?v=1CC88QGQiEA)
