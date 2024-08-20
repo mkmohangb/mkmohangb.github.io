@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Message Queues"
+date:   2024-08-20
+categories: daily log
+---
+
+### Message Queues
+  - [what is a message queue by Clemens Vasters](https://www.youtube.com/watch?v=bHSV916YbHE)
+    - message queues are everywhere - OS scheduling queues, threadpool worker queue, TCP Network queue, http request queue - shown in the context of a remote RPC call
+    - queues - fifo, priority, multiplex queue
+  - [intro](https://hookdeck.com/blog/introduction-message-queue)
+    - producer, message q, consumer
+    - implementation - frameworks - RabbitMQ, ZeroMQ, Apache Kafka?, full managed services - Amazon SQS/MQ, Google Cloud Pub/Sub
+  - [deepdive](https://hookdeck.com/blog/message-queues-deep-dive)
+    - message broker - handling ingestion, persistence and delivery of messages
+      - message oriented middleware or enterprise service bus
+      [simple guide to MQ](https://dev.to/tamerlang/the-simple-guide-to-message-queues-82a)
+      - AMQP is an open standard application layer protocol for message-oriented middleware.
+      - features include message orientation, queuing, Routing(including point-to-point & pub/sub), Reliability & Security
+      - Producer => Exchange => Queue => Consumer
+        - Exchange types - Fanout, Direct, Topic Exchange, Header Exchange, Default(nameless exchange)
+          - routing key, binding key
+    - consumer subscription methods - direct worker queue (distribute time consuming tasks), pub/sub - (producer => topic => message q => consumers), custom routing
+  - [Big little guide to MQs](https://sudhir.io/the-big-little-guide-to-message-queues)
+
+### Event gateway
+  - [Hookdeck](https://hookdeck.com/platform)
+    - for receiving, processing and delivering asynchronous messages
+    - [usecases](https://hookdeck.com/docs/hookdeck-basics#use-cases)
+      - inbound/outbound webhook infra, 3rd party to 3rd party message routing, async api gateway infra, serverless message broker
+
+### Web hooks
+  - [what is a webhook](https://www.redhat.com/en/topics/automation/what-is-a-webhook)
+    - web - http based, hook - allows apps to intercept calls or other events that might be of interest
+    - webhook - hook the event that occurs on the server app, and prompt the server to send the payload to theclient via the web
+    - [original blog post by Jeff Lindsay which introduced webhook](https://progrium.github.io/blog/2007/05/03/web-hooks-to-revolutionize-the-web/)
+      - "Web hooks are essentially user defined callbacks made with HTTP POST. To support web hooks, you allow the user to specify a URL where your application will post to and on what events. Now your application is pushing data out wherever your users want. It’s pretty much like re-routing STDOUT on the command line."
+      - [create free webhooks](https://webhook.site/)
+      - [github webhooks](https://docs.github.com/en/webhooks/about-webhooks)
