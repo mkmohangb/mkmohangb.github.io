@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres"
+date:   2024-08-21
+categories: daily log
+---
+
+### Crafting Interpreters
+- Completed [chapter 4](https://craftinginterpreters.com/scanning.html) on Scanning
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- Operators & Operator precedence
+
+### Postgres
+- [Tutorial](https://www.youtube.com/watch?v=85pG_pDkITY)
+  - pgadmin - creating a table and inserting a row
+- [art of postgresql](https://theartofpostgresql.com/)
+
