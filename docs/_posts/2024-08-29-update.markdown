@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres"
+date:   2024-08-29
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- Strings/Template Literals, if/else, type conversion/coercion, truthy/falsy values, strict equality === & !==, boolean logic, switch statement, statements & expressions, ternary operator, JS releases ES5,ES6, ESNext, Strict mode ('use strict'), fuctions - declarations, expressions, arrow, Arrays
+
+### Postgres
+
