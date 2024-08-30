@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres"
+date:   2024-08-30
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- Objects, object methods, for loop, while loop, 
+- vs code setup with prettier, live-server, auto close & auto rename extensions
+- DOM & DOM manipulation
+
+### Postgres
