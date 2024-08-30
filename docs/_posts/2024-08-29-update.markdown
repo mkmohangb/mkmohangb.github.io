@@ -11,4 +11,15 @@ categories: daily log
 - Strings/Template Literals, if/else, type conversion/coercion, truthy/falsy values, strict equality === & !==, boolean logic, switch statement, statements & expressions, ternary operator, JS releases ES5,ES6, ESNext, Strict mode ('use strict'), fuctions - declarations, expressions, arrow, Arrays
 
 ### Postgres
-
+- art of postgres - introduction section
+  - sql - declarative programming language
+  - sqlite is the most widely deployed software module
+  - downloaded data from [here](https://web.archive.org/web/20120616060713/http://www.nyxdata.com/nysedata/asp/factbook/viewer_edition.asp?mode=table&key=3141&category=3)
+    - tried the queries for '2012-02-01' using ```pgadmin's psql``` 
+  - PostgreSQL 
+    - functions - ```to_char, generate_series, cast, coalesce```, 
+    - data types - ```bigint, date, interval```
+    - decorated literal expression - :'start'
+    - psql - ```\copy``` - client/server streaming - reading local file and sending its content through any established PostgreSQL connection
+    - preventing SQL injection - separate static query text and dynamic arguments
+    - sql - lag (window function), with
