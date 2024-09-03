@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres"
+date:   2024-09-03
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- selecting & manipulating elements, handling click events, manipulating css styles, DRY principle, Modal window, handling keypress events, high level overview of JS ( high-level, garbage collected, interpreted or just-in-time compiled, multi-paradigm, prototype-based OO, first-class functions, dynamic, single threaded, non-blocking event-loop)
+
+### Postgres
