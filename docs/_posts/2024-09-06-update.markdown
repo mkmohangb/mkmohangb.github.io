@@ -14,5 +14,7 @@ categories: daily log
 
 ### Pytorch DDP
 - watched 1st 3 videos of this [tutorial](https://pytorch.org/tutorials/beginner/ddp_series_intro.html) 
-  - second video explained about DDP - data parallel so the distributed sampler divides the data among the multiple gpus. gradient computation(backprop) and communication happen in parallel so GPUs are not starved.
+  - second [video](https://www.youtube.com/watch?v=Cvdhwx-OBBo) explained about DDP - data parallel so the distributed sampler divides the data among the multiple gpus. gradient computation(backprop) and communication happen in parallel so GPUs are not starved.
+    <img width="785" alt="Screenshot 2024-09-06 at 9 02 59 PM" src="https://github.com/user-attachments/assets/c85f32c8-8be7-4824-9ad5-21a47418d0c3">
+
 - also tried this [script](https://leimao.github.io/blog/PyTorch-Distributed-Training/) on two g6.x large instances
