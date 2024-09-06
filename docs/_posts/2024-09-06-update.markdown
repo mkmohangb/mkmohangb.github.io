@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP"
+date:   2024-09-06
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- pig game, this keyword, destructuring arrays
+
+### Postgres
+
+### Pytorch DDP
+- watched 1st 3 videos of this [tutorial](https://pytorch.org/tutorials/beginner/ddp_series_intro.html) 
+  - second video explained about DDP - data parallel so the distributed sampler divides the data among the multiple gpus. gradient computation(backprop) and communication happen in parallel so GPUs are not starved.
+- also tried this [script](https://leimao.github.io/blog/PyTorch-Distributed-Training/) on two g6.x large instances
