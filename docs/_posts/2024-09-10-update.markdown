@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP"
+date:   2024-09-10
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- primitives vs reference types, this keyword in regular vs arrow functions, destructuring objects, spread operator, Rest pattern, short circuiting(&& and ||), nullish coalescing operator(only null & undefined not zero or ''), logical assignment operator (||=, ??=, &&=) 
+
+### Postgres
+
+### Pytorch DDP
