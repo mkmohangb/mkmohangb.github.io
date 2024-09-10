@@ -8,7 +8,7 @@ categories: daily log
 ### Crafting Interpreters
 
 ### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
-- primitives vs reference types, this keyword in regular vs arrow functions, destructuring objects, spread operator, Rest pattern, short circuiting(&& and ||), nullish coalescing operator(only null & undefined not zero or ''), logical assignment operator (||=, ??=, &&=) 
+- primitives vs reference types, this keyword in regular vs arrow functions, destructuring objects, spread operator, Rest pattern, short circuiting(&& and ||), nullish coalescing operator(only null & undefined not zero or ''), logical assignment operator (||=, ??=, &&=), for-of loop/ arr.entries()(similar to for-in/enumerate in python), enhanced object literals (hours:hours => hours, orderPizza: function(..items) => orderPizza(...items)), optional chaining(?.), Object.keys/Object.values/Object.entries
 
 ### Postgres
 
