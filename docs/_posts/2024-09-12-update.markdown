@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP"
+date:   2024-09-12
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- Sets, Maps, Strings, Asynchronous, AJAX
+
+### Postgres
+
+### Pytorch DDP
