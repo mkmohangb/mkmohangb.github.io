@@ -11,7 +11,7 @@ categories: daily log
 
 ### Postgres
 - Used ```pgloader``` to load the f1 db from [here](https://ergast.com/mrd/db/)
-- Followed the steps [here](https://pgloader.readthedocs.io/en/latest/tutorial/mysql.html?highlight=f1db#in-a-single-command-line)
+- Followed the steps from [here](https://pgloader.readthedocs.io/en/latest/tutorial/mysql.html?highlight=f1db#in-a-single-command-line) to migrate from mysql to postgresql
 - Had to use this [workaround](https://stackoverflow.com/questions/56542036/pgloader-failed-to-connect-to-mysql-at-localhost-port-3306-as-user-root). Also used mysql@8.0 instead of 9.0
 - After import into postgres ran a few queries like top 3 drivers, all the winners in a quarter, anti-join - not finishing a race
 - avoid usage of 'select *', explicitly state the columns in select so that it is easier to maintain.
