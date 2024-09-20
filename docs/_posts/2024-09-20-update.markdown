@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP, Misc"
+date:   2024-09-20
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- Callback hell, Promises, Event loop theory & practice (callback queue(loading img element), microtask queue(resolved Promise callback)) 
+
+### Postgres
+
+### Pytorch DDP
+
+### Misc
+
+
