@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP, Misc"
+date:   2024-09-23
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- Promisifying , async/await, Promise combinators(any, all, race, allSettled)
+
+### Postgres
+
+### Pytorch DDP
+
+### Misc
+
+
