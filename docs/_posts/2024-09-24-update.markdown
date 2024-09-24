@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP, AWS"
+date:   2024-09-24
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+- Modules, ES6 modules, Module pattern, top-level await, CommonJS modules
+
+### Postgres
+
+### Pytorch DDP
+
+### AWS
+- sample application using [Event bridge](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-tutorial-get-started.html)
+- Using nodejs sdk for aws - [v3](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/getting-started-nodejs.html)
+- npm [scoped packages](https://stackoverflow.com/questions/36667258/what-is-the-meaning-of-the-at-prefix-on-npm-packages) - ```"@aws-sdk/client-s3"```
+- [SQS vs SNS vs EventBridge](https://www.youtube.com/watch?v=RoKAEzdcr7k)
+
+
