@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP, AWS, Adv. Python"
+date:   2024-09-25
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+
+### Postgres
+
+### Pytorch DDP
+
+### AWS
+- SAA course - 11. Serverless Applications 
+  - Event-Driven Architecture
+  - Lambda - hands-on resize instance
+  - application integration services - SQS, SNS, Step Functions, EventBridge, API Gateway
+  - SQS - pull, SNS - push
+
+- boto3 (python3 client), [aws-sdk v3 nodejs](https://github.com/awsdocs/aws-doc-sdk-examples/tree/main/javascriptv3)
+
+### Adv. Python
+- function objects and [bytecode](https://www.youtube.com/watch?v=TnRT8BRaXHQ)
