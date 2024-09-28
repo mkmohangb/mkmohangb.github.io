@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP, AWS, Adv. Python, k8s, Gen AI"
+date:   2024-09-27
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+
+### Postgres
+
+### Pytorch DDP
+
+### AWS
+
+### Adv. Python
+- [python type hinting](https://www.youtube.com/watch?v=iqhOyZUT1Es)
+- [Pydantic v2](https://www.udemy.com/course/pydantic)
+  - [github code](https://github.com/fbaptiste/pydantic-essentials)
+
+### k8s
+- [k8s course](https://www.youtube.com/watch?v=2T86xAtR6Fo)
+
+### Gen AI
+- [Intro to Gen AI for Software Development](https://www.coursera.org/learn/introduction-to-generative-ai-for-software-development)
+ - week 1 + 1/2 of week 2
