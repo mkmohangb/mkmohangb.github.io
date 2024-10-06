@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP, AWS, Adv. Python, k8s, Gen AI"
+date:   2024-10-06
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+
+### Postgres
+
+### Pytorch DDP
+
+### AWS
+
+### Adv. Python
+
+### k8s
+
+### Gen AI
+- [Intro to Gen AI for Software Development](https://www.coursera.org/learn/introduction-to-generative-ai-for-software-development)
+ - completed 
+- started on course 3 using LLM for Software and system design
