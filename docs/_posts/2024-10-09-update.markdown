@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Crafting Interpreters, Javascript, Postgres, Pytorch DDP, AWS, Adv. Python, k8s, Gen AI"
+date:   2024-10-09
+categories: daily log
+---
+
+### Crafting Interpreters
+
+### [Javascript course](https://www.udemy.com/course/the-complete-javascript-course/)
+
+### Postgres
+
+### Pytorch DDP
+
+### AWS
+
+### Adv. Python
+
+### k8s
+
+### Gen AI
+- completed course 3 using LLM for Software and system design
+  - modules include 
+    - configuration driven development - image generation using DALL-E API
+    - design/implement database schema and add crud operations - SQL Alchemy & SQLite
+    - Gang of Four patterns - Singleton, Factory, Template method, Strategy
