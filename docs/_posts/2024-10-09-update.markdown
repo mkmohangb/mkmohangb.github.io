@@ -20,7 +20,7 @@ categories: daily log
 ### k8s
 
 ### Gen AI
-- completed course 3 using LLM for Software and system design
+- completed [course 3 using LLM for Software and system design](https://www.coursera.org/learn/ai-powered-software-and-system-design/home/module/1)
   - modules include 
     - configuration driven development - image generation using DALL-E API
     - design/implement database schema and add crud operations - SQL Alchemy & SQLite
