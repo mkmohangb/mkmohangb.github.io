@@ -1,0 +1,44 @@
+---
+layout: post
+title:  "Recommendation systems"
+date:   2024-10-09
+categories: daily log
+---
+
+### Recommender systems
+- Watched this two part series 
+  - [part 1](https://www.youtube.com/watch?v=Ams4sEn50cw)
+    1. Introduction & motivation
+      - online shopping - search, browse, popular categories, *recommendations*
+      - amazon - carousel based like 'pick where you left off', 'buy it again'
+      - netflix - 'popular on netflix', 'trending now'...
+      - linkedin - "your connection commented on a post" is one criteria to populate your feeds, if the content may be relevant to you
+      - benefits - saves time, surface products that are relevant, personalized, coverage
+    2. Types
+      - Unpersonalized / personalized - sponsored products, popular categories, top picks for you
+    3. Recommendation Models
+      - Collaborative Filtering
+        - Netflix, Matrix completion, learn user factors & movie factors, dot product & sigmoid
+        - cold start problem - a new user or a new movie not seen before
+      - Content based Filtering
+        - addresses cold start problem using the content of the movie like genre, tags etc.
+        - learning embeddings
+        - interpreting the latent dimesions post learning them
+      - Hybrid Models
+        - combine both - two tower architecture 
+        - deep learning based - e.g. news recommendation - combine user profile and news content(data) - have two models one for user and another for news - generates two representations
+    4. Performance metrics and its design
+      - Modeling Metrics - Relevance metrics - Precision(@K), Average Precision(@K) - helps in capturing the relevance of ranking, Recall
+      - Design considerations - Relevance, Diversity, Freshness, Fairness, Latency, Scalability, cold-start
+      - Business Metrics - Revenue, #Products purchased, #subscriptions, customer growth
+      - bridging the offline-online gap - hold-out offline testing, internal testing/dog fooding, a/b testing
+  - [part 2](https://www.youtube.com/watch?v=FSkKJtcBOuU)
+    - recommender system design and architecture
+      - measuring diversity(at 33:00) - if cart already contains cereals, volume(measured using vector representation of the individual products, volume - determinant of the similarity matrix) of adding cheerios is less than the volume of adding coffee
+      - latency - cache the embeddings
+      - scalability - have 1billion movies - NN approach won't scale due to memory & compute constraints. Need a multi-stage approach
+      - two tower architecture
+    - Scalable Recsys design
+      
+
+
