@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Recommendation systems"
-date:   2024-10-09
+date:   2024-10-24
 categories: daily log
 ---
 
@@ -39,6 +39,14 @@ categories: daily log
       - scalability - have 1billion movies - NN approach won't scale due to memory & compute constraints. Need a multi-stage approach
       - two tower architecture
     - Scalable Recsys design
-      
+      - first stage candidate generation using a simpler model like Collaborative Filtering, second stage uses two tower model
+      - realtime  - in session recommendation
+      - offline metrics - relevance, diversity etc..
+      - business metrics - revenue, view time, CTR, #products viewed/purchased
+      - offline-online gap - diversity optimization != increase in revenue
+      - bridging offline-online gap - held-out offline testing, offline evaluation on production data, internal testing/dog fooding, A/B testing
+        
+        <img width="632" alt="Screenshot 2024-10-25 at 12 44 12 PM" src="https://github.com/user-attachments/assets/dc0986dd-fb48-443c-90f1-63010a31dd0b">
+
 
 
