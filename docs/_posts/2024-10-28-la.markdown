@@ -7,7 +7,7 @@ categories: daily log
 
 ### Linear Algebra
 - Pavel Grinfeld [LA series on YT](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)
-  - (Lemma](https://www.lem.ma/library)
+  - [Lemma](https://www.lem.ma/library)
 
 - Sheldon Axler [Linear Algebra Done Right](https://linear.axler.net/)
   - [video playlist](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw) for the book
