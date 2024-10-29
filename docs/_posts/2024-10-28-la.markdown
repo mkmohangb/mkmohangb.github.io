@@ -8,7 +8,10 @@ categories: daily log
 ### Linear Algebra
 - Pavel Grinfeld [LA series on YT](https://www.youtube.com/playlist?list=PLlXfTHzgMRUKXD88IdzS14F4NxAZudSmv)
   - [Lemma](https://www.lem.ma/library)
+   - our eye has 100 million sensors in the retina (rod & cone cells) but our ears have only one sensor. Sound enters our ears as a combination(summation) which are then decomposed as a result of which we can hear the individual sound sources.
+   - mlk + bach = mlk - bach (mlk - martin luther king). The intuition is that any sound signal can be decomposed as a set of sine waves, so -bach is just a phase shifted sine wave. So addition or subtraction sounds the same.
 
 - Sheldon Axler [Linear Algebra Done Right](https://linear.axler.net/)
   - [video playlist](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw) for the book
+  - The symbol i was first used to denote $\sqrt{−1}$ by Leonhard Euler in 1777
   
