@@ -13,5 +13,8 @@ categories: daily log
 
 - Sheldon Axler [Linear Algebra Done Right](https://linear.axler.net/)
   - [video playlist](https://www.youtube.com/playlist?list=PLGAnmvB9m7zOBVCZBUUmSinFV0wEir2Vw) for the book
-  - The symbol i was first used to denote $\sqrt{−1}$ by Leonhard Euler in 1777
+  - Complex numbers
+    - Some polynomials with real coefficients have no real zeros. eg. the equation $x^2 + 1 = 0$ has no real solutions. Thus we invent a solution called i with the property that $i^2 =-1$
+    - The symbol i was first used to denote $\sqrt{−1}$ by Leonhard Euler in 1777
+    - were invented so that we can take square root of negative numbers
   
