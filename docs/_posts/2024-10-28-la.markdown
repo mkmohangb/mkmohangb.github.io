@@ -18,3 +18,27 @@ categories: daily log
     - The symbol i was first used to denote $\sqrt{−1}$ by Leonhard Euler in 1777
     - were invented so that we can take square root of negative numbers
   
+- [Deep Learning book](https://www.deeplearningbook.org/)
+  - linear algebra is a form of continuous rather than discrete mathematics. A good understanding of linear algebra is essential for understanding and working with many machine learning algorithms, especially deep learning algorithms.
+  - Scalars, Vectors, Matrices, Tensors
+  - Multiplying Matrices and Vectors
+  - Identity and Inverse Matrices
+  - Linear Dependence and Span
+  - Norms
+  - Special kinds of Matrices and Vectors
+    - Diagonal
+    - Symmetric
+    - Orthogonal
+    - Unit vector
+  - Eigen decomposition
+  - Singular Value Decomposition (SVD)
+  - The Moore-Penrose Pseudoinverse
+  - The Trace operator
+  - The Determinant
+  - Example: Principal Components Analysis (PCA)
+    - One simple machine learning algorithm, PCA, can be derived using only knowledge of basic linear algebra.
+      
+
+### [Matrix Calculus for ML and beyond](https://www.youtube.com/playlist?list=PLUl4u3cNGP62EaLLH92E_VCN4izBKK6OE)
+  - [github page](https://github.com/mitmath/matrixcalc)
+  - [instructor insights](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/pages/instructor-insights/)
