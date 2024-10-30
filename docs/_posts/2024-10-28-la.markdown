@@ -37,6 +37,11 @@ categories: daily log
   - The Determinant
   - Example: Principal Components Analysis (PCA)
     - One simple machine learning algorithm, PCA, can be derived using only knowledge of basic linear algebra.
+   
+- [Linear Algebra by Jim Hefferon](https://hefferon.net/linearalgebra/)
+  - [video playlist](https://www.youtube.com/playlist?list=PLwF3A0R8OzMoMlE1-SaEh8h9VqUlO-r52)
+  - [solution manual](https://jheffero.w3.uvm.edu/linearalgebra/jhanswer.pdf)
+- [Linear Algebra lecture notes of William Chen](https://www.williamchen-mathematics.info/lnlafolder/lnla.html)
 
 ### [Single Variable Calculus](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
   - [purpose of recitation](https://www.youtube.com/watch?v=2y4tCiWbVRI&t=5s)
