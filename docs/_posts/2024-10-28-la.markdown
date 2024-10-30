@@ -37,8 +37,14 @@ categories: daily log
   - The Determinant
   - Example: Principal Components Analysis (PCA)
     - One simple machine learning algorithm, PCA, can be derived using only knowledge of basic linear algebra.
-      
+
+### [Single Variable Calculus](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
+  - [purpose of recitation](https://www.youtube.com/watch?v=2y4tCiWbVRI&t=5s)
+    
+### [Multivariable Calculus](https://www.youtube.com/watch?v=PxCxlsl_YwY&t=65s)      
+  - [Syllabus](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/pages/syllabus/)
 
 ### [Matrix Calculus for ML and beyond](https://www.youtube.com/playlist?list=PLUl4u3cNGP62EaLLH92E_VCN4izBKK6OE)
+  - [So you think you know how to take derivatives](https://www.youtube.com/watch?v=-l7JHalBubw)
   - [github page](https://github.com/mitmath/matrixcalc)
   - [instructor insights](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/pages/instructor-insights/)
