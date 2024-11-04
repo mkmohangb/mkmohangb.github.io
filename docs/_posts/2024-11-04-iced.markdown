@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "iced"
+date:   2024-11-04
+categories: daily log
+---
+
+### iced
+- iced is a gui library for Rust based on the [elm architecture](https://guide.elm-lang.org/architecture/)
+  - the basic concepts are
+    1. State - state of your application
+    2. Messages - user interactions or meaningful events you care about
+    3. View logic - way to display state as widgets that may produce messages on user interaction
+    4. Update logic - way to react to messages and update your state
+  - tried this simple counter example from [here](https://jl710.github.io/iced-guide/quickstart/3_a_simple_counter_app.html)
+  - Using cursor helped in a couple of ways - 
+     - auto complete 
+     - help with things for which I didn't know the syntax like using ```format!``` macro for string interpolation 
+     - fixing an issue with variable getting moved when using ```Element.explain``` for debugging. This took a few back and forth in the chat because the solution it suggested didn't work as the APIs had changed in the recent versions, logical errors etc.
