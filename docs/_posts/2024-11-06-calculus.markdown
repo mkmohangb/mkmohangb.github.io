@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Calculus"
+date:   2024-11-06
+categories: daily log
+---
+
+### Calculus
+  - book, calculus with analytic geometry George Simmons
+  - [calculus 1](https://www.youtube.com/playlist?list=PLX2gX-ftPVXVzRDO_yw83HFddu5rfWsOX) playlist by Michel Van Biezen
+  - secant line & tangent line
+  - Fermat's idea - secant to tangent
+  - some good answers on [quora](https://www.quora.com/Why-cant-we-find-the-slope-of-a-tangent-to-a-curve-at-a-point-just-like-we-find-the-slope-of-any-other-line-by-taking-any-two-points-on-the-tangent-line-and-using-the-formula-for-slope-Why-do-we-have-to-use-a-secant)

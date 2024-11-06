@@ -48,5 +48,8 @@ categories: daily log
         
         <img width="632" alt="Screenshot 2024-10-25 at 12 44 12 PM" src="https://github.com/user-attachments/assets/dc0986dd-fb48-443c-90f1-63010a31dd0b">
 
+    - [two tower models](https://github.com/gauravchak/two_tower_models)
 
 
+- [dl2ai recommender systems chapter](https://www.d2l.ai/chapter_recommender-systems/index.html)
+  - [pytorch implementation](https://github.com/nntrongnghia/learn-recsys) of examples
