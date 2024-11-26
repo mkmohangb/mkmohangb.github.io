@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Distributed computation"
+date:   2024-11-26
+categories: daily log
+---
+
+### Distributed computation
+  - using Redis queue and set of workers
+  - redis ```lpush``` and ```brpop```
+  - [source](https://www.youtube.com/watch?v=XCSARhkRg7g&list=PL9_iFHfnv8hBzIvrgk5qsE4VD7oUiAQ4E&index=17)
