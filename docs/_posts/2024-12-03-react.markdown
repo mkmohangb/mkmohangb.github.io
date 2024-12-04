@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "React"
+date:   2024-12-03
+categories: daily log
+---
+
+### React course from Scrimba
+  - course is [here](https://scrimba.com/learn-react-c0e)
+  - completed the static pages chapter
+  - Covers components, fragments, jsx, styling with css
