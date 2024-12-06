@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Data Engineering"
+date:   2024-12-05
+categories: daily log
+---
+
+### Data Engineering
+  - Data engg. bootcamp by [Data Expert](https://bootcamp.techcreator.io/)
+  - [github repo](https://github.com/DataExpert-io/data-engineer-handbook)
+  - Dimensional Data Modeling - lecture & lab
+    - dimension - attributes of an entity - slowly changing(favorite food: lasagna -> spicy curry)/fixed(birthday)
+    - know your customer - Data analyst/scientist(easy to query, not many complex data types) // other data engineers(compact, nested types are okay) // ML models(depends on the model and how it is trained) // Customers (easy to interpret charts)
+    - OLTP(optimizes for low latency, low volume queries) vs master data(completeness of entity definitions, deduped) vs OLAP(optimizes for large volumes, GROUP by queries, minimise joins)
+    - OLTP and OLAP is a continuum - Production DB snapshots -> Master data -> OLAP cubes -> Metrics(a single number)
+    - Cumulative table design 
+      - Core components - 2 dfs(y'day & today), full outer join, coalesce ids & unchanging dimensions, hang onto all of history, compute cumulation metrics (e.g. days since x)
+      - growth analytics at facebook
+      - state transition tracking
+      - Strengths: historical analysis without shuffle, easy "transition" analysis
+      - Drawbacks: can only be backfilled sequentially, 
+    - Compactness vs Usability tradeoff: 
+      - most usable tables: have no complex data types, easily manipulated with where & group by
+      - most compact tables: not human readable, are compressed and can't be queried directly until they're decoded
+      - middle ground tables: use complex data types (e.g. ARRAY, MAP & STRUCT), making querying trickier but also compacting more
+    - Struct vs Array vs Map: 
+      - Struct: keys are rigidly defined, compression is good. Values can be of any type.
+      - Map: keys are loosely defined, compression is okay! Values all have to be of the same type.
+      - Array: Ordinal, list of all the values have to be of the same type.
+    - Run-length encoding compression
