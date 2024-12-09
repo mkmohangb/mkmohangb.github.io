@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Calculus"
+date:   2024-12-06
+categories: daily log
+---
+
+### Calculus by Michael Spivak
+  - read the 1st chapter on basic properties of numbers
+    - it lists 12 properties some of which are
+      1. associative law of addition/multiplication
+      2. commutative law of addition/multiplication
+      3. distributive law
+      4. additive/multiplicative identity/inverse
+      5. trichotomy law (P - collection of +ve numbers)
+      6. closure under addition/multiplication
+    - Prove |a + b| <= |a| + |b|
