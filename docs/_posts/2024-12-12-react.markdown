@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "React"
+date:   2024-12-12
+categories: daily log
+---
+
+### React course from Scrimba
+  - completed the data driven react chapter
+  - link to [code](https://github.com/mkmohangb/react)
+  - Covers reusability, props, creating components from array of data
