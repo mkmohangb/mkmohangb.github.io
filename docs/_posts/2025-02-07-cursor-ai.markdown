@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Cursor & AI teams & uv & Pydantic"
+date:   2025-02-07
+categories: daily log
+---
+
+### Cursor
+  - Going through the cursor documentation and this [blog post](https://skylarbpayne.com/posts/cursed-cursor) on doing software dev with Cursor.
+  - Tried cursor agent mode, add tailwind css support to a project
+  - [cursor rules](https://skylarbpayne.com/posts/my-cursor-setup)
+
+### uv
+  - Tried some simple scripts with [uv](https://docs.astral.sh/uv/), an extremely fast python package and project manager, written in Rust.
+
+### AI
+  - [Experimentation mindset](https://skylarbpayne.com/posts/experimentation-mindset)
+  - [effective standups](https://jxnl.co/writing/2024/10/25/running-effective-ai-standups/)
+
+### Pydantic
+  - [Pydantic is all you need](https://www.youtube.com/watch?v=yj-wSRJwrrc)
