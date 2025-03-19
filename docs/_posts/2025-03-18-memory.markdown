@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Memory"
+date:   2025-03-18
+categories: daily log
+---
+
+### Memory
+  - [The Art of Writing Efficient Programs](https://github.com/PacktPublishing/The-Art-of-Writing-Efficient-Programs)
+
+    - Profiling tools
+      - [gperftools](https://github.com/gperftools/gperftools)
+        - is a collection of a high-performance multi-threaded malloc() implementation, plus some pretty nifty performance analysis
+tools.
+        - The cpu profiler, heap checker, and heap profiler will lie dormant, using no memory or CPU, until you turn them on.
+      - [benchmark](https://github.com/google/benchmark)
+        - microbenchmarking tool
+      - [perf](https://perfwiki.github.io/main/)
+        - ```perf``` can instrument CPU performance counters, tracepoints, kprobes and uprobes. 
+          - Performance counters are CPU hardware registers that count hardware events such as instructions executed, cache-misses suffered or branches mispredicted. They form a basis for profiling applications to trace dynamic control flow and identify hotspots. 
+          - Tracepoints are instrumentation points(negligible overhead when not in use) placed at logical locations in code, such as for system calls, TCP/IP events, file system operations etc.
+          - ```perf stat``` obtain event counts, ```perf top``` see live event count, ```perf list``` list all symbolic even types
+
+    - Ch 4 - Memory architecture and Performance
+      - memory gap - memory cannot keep up with the cpu
+      - memory clock, data rate, Column Access Strobe (CAS) latency - use these values to arrive at the time required per memory access
+      - memory hierarchy - L1 cache closest to CPU, L3 closest to RAM
+      - SRAM is much faster to access but draws significantly more power than DRAM
+      - L1 cache - usually few KBs, L3 cache - few MBs and shared between multiple cores.
+      - latency, bandwidth
+      - sequential vs random access, read vs write
+      - memory performance optimizations in hardware - prefetch, pipelining or hardware loop runrolling
+      - memory efficient data structures (std::deque)
+      - profiling memory performance using ```perf```, dcache load misses
+
