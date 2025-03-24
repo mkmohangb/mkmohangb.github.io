@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Threads, Memory & Concurrency"
+date: 2025-03-19
+categories: daily log
+---
+
+Ch 5:
+
+- desktop computing - use multiple CPUs to better run different and
+  independent programs at the same time
+- high performance computing - run one program using many CPUs
+- Symmetric Multi-threading(SMT) - SMT capable processor has a single set of registers and computing units, but two Program counters and an extra copy of additional hardware that is needed to maintain the state of a running thread. They can run two threads, with practical speedup between 25 to 50%.
+- when threads start to compete for resources(memory); much room for a skillful programmer to
+  improve the efficiency
+- L3 cache is shared between all cores. Main memory is shared too, although different memory banks are closer to different CPUs (NUMA)
+- For multi-threaded programs, it is important to avoid becoming memory bound.
+- cost of adding integers does not depend on the values.
+- data race vs race condition; refer [here](https://blog.regehr.org/archives/490)
+- Locks simplest way to ensure correctness of multi-threaded program but not easiest to analyze in terms of performance since it involves system call. Atomic variable easier to analyze.
+- `atomic` - single, non-interruptible, atomic transactions. Require certain hardware support.
+- CPU has direct access only to L1 cache. Cache line - minimum amount of memory that can be copied from memory to cache and back. x86 - 64 bytes, mac m1 - 128 bytes (`sysctl hw.cachelinesize`)
+- there is more to concurrency than locking shared variables. Able to reason about the order in which events happen.
+- memory order - relaxed, acquire-release, acquire, release (half-barrier)
+- atomic operations with memory order guarantees act as barriers. Convenient to talk about such atomic operations as memory barriers.
+- memory model - from C++11 standard - sequentially consistent
+- overall memory model is a superposition of hardware memory model, os & runtime memory model, memory model of each hardware/software component the program runs on. Can take advantage when writing processor specific code.
+- portable C++ code can rely only on the memory model of the language itself.
+- TSAN - Thread Sanitizer
+- barriers are invoked implicitly by using locks
